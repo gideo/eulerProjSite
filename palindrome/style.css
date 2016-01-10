@@ -1,0 +1,30 @@
+body {
+}
+
+.navInline {
+    display: inline;
+}
+
+li {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: medium;
+}
+
+.el {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: medium;
+}
+
+.ex {
+    font-family: Verdana;
+    font-size: medium;
+    border: 1px solid #f08;
+}
+
+
+
