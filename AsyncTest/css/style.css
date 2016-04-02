@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://www.dropbox.com/s/kuanwhomhaihzau/photo-1433190152045-5a94184895da.jpg?dl=1");
+  background-size: cover;
+  font-size: 1em;
+}
+
+.title {
+  font-size: 1.2me;
+  font-family: "Lobster", sans-serif; 
+  
+  text-align: center; 
+  text-decoration: underline;
+}
+
+.center-text {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+#test {
+  margin: auto;
+  width: 100px;
+  color: black;
+  background: #fff;
+  border: 1px solid #f0f;
+}
+
+a:focus {
+  outline: 0;
+  text-decoration: none;
+}
