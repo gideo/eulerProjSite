@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-image: url('https://www.dropbox.com/s/of9vajj6x724km8/dusty-sky.png?dl=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 1em;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fancy {
+  color: #EEE;
+  text-decoration: underline;
+   -moz-text-decoration-color: #FF7E00; /* Code for Firefox */
+    text-decoration-color: #FF7E00;
+  box-shadow: 1px 1px 1px #fff;
+}
