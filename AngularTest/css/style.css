@@ -22,7 +22,6 @@ h1 {
 .fancy {
   color: #EEE;
   text-decoration: underline;
-   -moz-text-decoration-color: #FF7E00; /* Code for Firefox */
+   -moz-text-decoration-color: #FF7E00;
     text-decoration-color: #FF7E00;
-  box-shadow: 1px 1px 1px #fff;
 }
