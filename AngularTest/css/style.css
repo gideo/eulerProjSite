@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
-
 body {
   margin: 0;
   padding: 0;
@@ -22,6 +21,10 @@ h1 {
 .fancy {
   color: #EEE;
   text-decoration: underline;
-   -moz-text-decoration-color: #FF7E00;
-    text-decoration-color: #FF7E00;
+  -moz-text-decoration-color: #FF7E00;
+  text-decoration-color: #FF7E00;
+}
+
+.main {
+  color: white;
 }

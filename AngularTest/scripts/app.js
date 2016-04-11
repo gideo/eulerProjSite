@@ -24,3 +24,7 @@
   worker.job1();
   worker.job2();
 }());
+
+var MainController = function($scope){
+  $scope.message = "Hello!";
+}
