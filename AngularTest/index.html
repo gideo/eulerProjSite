@@ -7,12 +7,13 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 </head>
-<body ng-app ng-controller="MainController">
+<body ng-app='store'>
+  <p></p>
   <h1 class="fancy"> Arizonia </h1>
   <div class="main">
     <p>Hello</p>
-    <div>
-      <p>Hello {{message}}</p>  
+    <div ng-controller="StoreController as store">
+      <p>Hello {{ store.product.name }}</p>  
     </div>
   </div>
 </body>
