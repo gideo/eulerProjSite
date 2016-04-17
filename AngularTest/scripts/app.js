@@ -1,13 +1,9 @@
-// var myApp = angular.module('myApp1',[]);
-
-// myApp.controller('MainController', ['$scope', function($scope) {
-//   $scope.message = 'Hola!';
-// }]);
 (function(){
   var app = angular.module('store', []);
 
   app.controller('StoreController', function(){
     this.product = gem;
+    this.arrays = arr;
   });
   
   var gem = {
@@ -16,10 +12,10 @@
     description: '. . .'
   };
   
-  var arr = {
-    a : ["A", "1", "Alpha"],
-    b : ["B", "2", "Beta"],
-    c : ["C", "3", "Gamma"]
-  };
+  var arr = [
+    {"num": "1", "letter": "Al"},
+    {"num": "2", "letter": "Bee"},
+    {"num": "3", "letter": "Gee"}
+  ];
   
 })();

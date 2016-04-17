@@ -13,7 +13,10 @@
   <div class="main">
     <p>Hello</p>
     <div ng-controller="StoreController as store">
-      <p>Hello {{ store.product.name }}</p>  
+      <p>Hello {{ store.product.name }}</p> 
+      <div ng-repeat="array in store.arrays">
+        {{ array.num + " " + array.letter }}
+      </div>
     </div>
   </div>
 </body>
