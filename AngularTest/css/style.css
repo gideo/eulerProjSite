@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 body {
   margin: 0;
   padding: 0;
@@ -26,5 +25,23 @@ h1 {
 }
 
 .main {
-  color: white;
+  margin: auto;
+  margin-top: 1em;
+  padding: .75em;
+  color: #ddd;
+  
+  width: 15%;
+  border: 2px solid #fff;
+  
+  font-family: 'Georgia', sans-serif;
+}
+
+div p {
+  font-size: 1.5em
+}
+
+.list {
+  margin-top: .2em;
+  border: 1px dotted #fee;
+  color: #eaceae;
 }
