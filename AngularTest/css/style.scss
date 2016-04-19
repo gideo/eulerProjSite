@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+$primary-color: #FF7E00;
+$second-color: #E8950C;
+$third-color: #E8580C;
+$fourth-color: #CC6500;
+$fifth-color: #7F3F00;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-image: url('https://www.dropbox.com/s/of9vajj6x724km8/dusty-sky.png?dl=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 1.6em;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fancy {
+  color: $primary-color;
+  text-decoration: underline;
+  -moz-text-decoration-color: $primary-color;
+  text-decoration-color: $primary-color;
+}
+
+.main {
+  margin: auto;
+  margin-top: 1em;
+  padding: .75em;
+  color: $second-color;
+  
+  width: 25%;
+  border: 2px solid $primary-color;
+  
+  font-family: 'Georgia', sans-serif;
+}
+
+div p {
+  font-size: 1.5em
+}
+
+.list {
+  margin-top: .2em;
+  border: 1px dotted $fourth-color;
+  color: $primary-color;
+}
