@@ -5,6 +5,7 @@ $second-color: #E8950C;
 $third-color: #E8580C;
 $fourth-color: #CC6500;
 $fifth-color: #7F3F00;
+$font-color: #DEDECF;
 
 body {
   margin: 0;
@@ -35,7 +36,7 @@ h1 {
   margin: auto;
   margin-top: 1em;
   padding: .75em;
-  color: $second-color;
+  color: $font-color;
   
   width: 25%;
   border: 2px solid $primary-color;
@@ -49,6 +50,6 @@ div p {
 
 .list {
   margin-top: .2em;
-  border: 1px dotted $fourth-color;
+  border: 1px solid $fourth-color;
   color: $primary-color;
 }
