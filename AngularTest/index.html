@@ -11,11 +11,15 @@
   <p></p>
   <h1 class="fancy"> Arizonia </h1>
   <div class="main">
-    <p>Controller Test</p>
+    <p>Hello</p>
     <div ng-controller="StoreController as store">
-      <p>Hello {{ store.product.name }}</p> 
-      <div class="list" ng-repeat="array in store.arrays">
-        {{ array.num + ". " + array.letter }}
+      <div class="list" ng-repeat="array in store.arrays1">
+        {{ array.num + ". " }} <span class="color-five"> {{ array.letter }} </span>
+      </div>
+      
+      <div class="list">
+        <span class="obj-title">{{ store.product.name + ": $" + store.product.price }}</span>
+        <p> {{ store.product.description }}</p>
       </div>
     </div>
   </div>

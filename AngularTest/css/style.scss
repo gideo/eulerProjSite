@@ -50,6 +50,16 @@ div p {
 
 .list {
   margin-top: .2em;
-  border: 1px solid $fourth-color;
+  border: 1px dotted $fourth-color;
   color: $primary-color;
+}
+
+.color-five {
+  color: $font-color;
+}
+
+.obj-title {
+  font-size: 1.4em;
+  text-decoration: underline;
+  color: $font-color;
 }
