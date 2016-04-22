@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  background-image: url('https://www.dropbox.com/s/of9vajj6x724km8/dusty-sky.png?dl=1');
+  background-image: url("https://www.dropbox.com/s/of9vajj6x724km8/dusty-sky.png?dl=1");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -18,30 +18,46 @@ h1 {
 }
 
 .fancy {
-  color: #EEE;
+  color: #FF7E00;
   text-decoration: underline;
   -moz-text-decoration-color: #FF7E00;
   text-decoration-color: #FF7E00;
+}
+
+.head {
+  text-align: center;
+  border: 1px dashed #FF7E00;
 }
 
 .main {
   margin: auto;
   margin-top: 1em;
   padding: .75em;
-  color: #ddd;
-  
-  width: 15%;
-  border: 2px solid #fff;
-  
+  color: #DEDECF;
+  width: 25%;
+  border: 2px solid #FF7E00;
+  border-radius: 1em;
   font-family: 'Georgia', sans-serif;
 }
 
 div p {
-  font-size: 1.5em
+  font-size: 1.2em;
 }
 
 .list {
-  margin-top: .2em;
-  border: 1px dotted #fee;
-  color: #eaceae;
+  margin-top: .25em;
+  padding: .25em;
+  border: 1px dotted #CC6500;
+  color: #FF7E00;
+  text-shadow: 3px 2px 1px #222;
+}
+
+.color-five {
+  color: #DEDECF;
+}
+
+.obj-title {
+  font-size: 1.25em;
+  text-decoration: underline;
+  color: #DEDECF;
 }

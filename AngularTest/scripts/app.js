@@ -13,9 +13,15 @@
   };
   
   var arr1 = [
-    {"num": "1", "letter": "Al"},
-    {"num": "2", "letter": "Bee"},
-    {"num": "3", "letter": "Gee"}
+    {"num": "1", "letter": "Alabama Arkansas"},
+    {"num": "2", "letter": "Leather Jackets"},
+    {"num": "3", "letter": "Into the Darkness"}
+  ];
+
+  var arr2 = [
+    {"num": "4", "letter": "The Riches"},
+    {"num": "5", "letter": "Cahbs Secret"},
+    {"num": "6", "letter": "Sinclair The World"}
   ];
   
 })();

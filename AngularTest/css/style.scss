@@ -32,6 +32,11 @@ h1 {
   text-decoration-color: $primary-color;
 }
 
+.head {
+  text-align: center;
+  border: 1px dashed $primary-color;
+}
+
 .main {
   margin: auto;
   margin-top: 1em;
@@ -40,18 +45,21 @@ h1 {
   
   width: 25%;
   border: 2px solid $primary-color;
-  
+  border-radius: 1em;
   font-family: 'Georgia', sans-serif;
 }
 
 div p {
-  font-size: 1.5em
+  font-size: 1.2em
 }
 
 .list {
-  margin-top: .2em;
+  margin-top: .25em;
+  padding: .25em;
   border: 1px dotted $fourth-color;
   color: $primary-color;
+  text-shadow: 3px 2px 1px #222;
+  
 }
 
 .color-five {
@@ -59,7 +67,7 @@ div p {
 }
 
 .obj-title {
-  font-size: 1.4em;
+  font-size: 1.25em;
   text-decoration: underline;
   color: $font-color;
 }
