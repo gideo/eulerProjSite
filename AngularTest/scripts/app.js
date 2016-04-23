@@ -4,6 +4,7 @@
   app.controller('StoreController', function(){
     this.product = gem;
     this.arrays1 = arr1;
+    this.arrays2 = arr2;
   });
   
   var gem = {
@@ -19,9 +20,9 @@
   ];
 
   var arr2 = [
-    {"num": "4", "letter": "The Riches"},
-    {"num": "5", "letter": "Cahbs Secret"},
-    {"num": "6", "letter": "Sinclair The World"}
+    {"letter": "A", "desc": "The Riches"},
+    {"letter": "B", "desc": "Cahbs Secret"},
+    {"letter": "C", "desc": "Sinclair The World"}
   ];
   
 })();

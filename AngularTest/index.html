@@ -21,6 +21,10 @@
         <span class="obj-title">{{ store.product.name + ": $" + store.product.price }}</span>
         <p> {{ store.product.description }}</p>
       </div>
+
+      <div class="list" ng-repeat="array in store.arrays2">
+        {{ array.letter + ". "}} <span class="color-five"> {{ array.desc }}</span>
+      </div>
     </div>
   </div>
 </body>
