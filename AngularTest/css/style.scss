@@ -3,8 +3,6 @@
 $primary-color: #FF7E00;
 $second-color: #E8950C;
 $third-color: #E8580C;
-$fourth-color: #CC6500;
-$fifth-color: #7F3F00;
 $font-color: #DEDECF;
 
 body {
@@ -56,7 +54,7 @@ div p {
 .list {
   margin-top: .25em;
   padding: .25em;
-  border: 1px dotted $fourth-color;
+  border: 1px dotted $third-color;
   color: $primary-color;
   text-shadow: 3px 2px 1px #222;
   

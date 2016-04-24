@@ -2,12 +2,12 @@
   var app = angular.module('store', []);
 
   app.controller('StoreController', function(){
-    this.product = gem;
+    this.product = gems;
     this.arrays1 = arr1;
     this.arrays2 = arr2;
   });
   
-  var gem = {
+  var gems = {
     name: 'Dodecahedron',
     price: 2.95,
     description: 'I am a dodecahedron, therefore I am dodecaliously twelve sided.'
