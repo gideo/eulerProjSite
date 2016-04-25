@@ -39,7 +39,9 @@ h1 {
   margin: auto;
   margin-top: 1em;
   padding: .75em;
+  
   color: $font-color;
+  background-color: rgba($primary-color, .15);
   
   width: 25%;
   border: 2px solid $primary-color;
