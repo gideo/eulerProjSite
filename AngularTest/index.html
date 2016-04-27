@@ -22,8 +22,8 @@
         <p> {{ store.product.description }}</p>
       </div>
 
-      <div class="list" ng-repeat="array in store.arrays2">
-        {{ array.letter + ". "}} <span class="color-five"> {{ array.desc }}</span>
+      <div class="list" ng-repeat="book in store.books">
+        <span> {{ book.title }} </span> <div class="color-five"> {{ book.author }}</div>
       </div>
     </div>
   </div>
