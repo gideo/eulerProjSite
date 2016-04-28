@@ -4,6 +4,7 @@ $primary-color: #FF7E00;
 $second-color: #E8950C;
 $third-color: #E8580C;
 $font-color: #DEDECF;
+$shadow-color: #222222;
 
 body {
   margin: 0;
@@ -36,14 +37,15 @@ h1 {
 }
 
 .main {
+  padding: .75em;
   margin: auto;
   margin-top: 1em;
-  padding: .75em;
+  margin-bottom: 1em;
   
   color: $font-color;
   background-color: rgba($primary-color, .15);
   
-  width: 25%;
+  width: 30%;
   border: 2px solid $primary-color;
   border-radius: 1em;
   font-family: 'Georgia', sans-serif;
@@ -58,8 +60,15 @@ div p {
   padding: .25em;
   border: 1px dotted $third-color;
   color: $primary-color;
-  text-shadow: 3px 2px 1px #222;
-  
+  text-shadow: 3px 2px 1px $shadow-color;
+}
+
+.product {
+  margin-top: .5em;
+  padding: .25em;
+  border: 1px dashed $second-color;
+  color: $primary-color;
+  text-shadow: 3px 2px 1px $shadow-color;
 }
 
 .color-five {
