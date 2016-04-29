@@ -13,17 +13,17 @@
   <div class="main">
     <p>Hello</p>
     <div ng-controller="StoreController as store">
-      <div class="list" ng-repeat="array in store.arrays1">
+      <div class="list color-primary" ng-repeat="array in store.arrays1">
         {{ array.num + ". " }} <span class="color-five"> {{ array.letter }} </span>
       </div>
       
-      <div class="product">
+      <div class="product color-primary">
         <span class="obj-title">{{ store.product.name + ": $" + store.product.price }}</span>
-        <p> {{ store.product.description }}</p>
+        <p> {{ store.product.description }} </p>
       </div>
-
-      <div class="list" ng-repeat="book in store.books">
-        <span> {{ book.title }} </span> <div class="color-five"> {{ book.author }}</div>
+      
+      <div class="list color-primary" ng-repeat="book in store.books">
+        <span> {{ book.title }} </span> <div class="font-color"> {{ book.author }}</div>
       </div>
     </div>
   </div>
