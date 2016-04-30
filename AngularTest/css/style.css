@@ -14,7 +14,7 @@ h1 {
   margin: auto;
   text-align: center;
   font-size: 3em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .fancy {
@@ -24,17 +24,19 @@ h1 {
   text-decoration-color: #FF7E00;
 }
 
-.head {
+.header {
   text-align: center;
-  border: 1px dashed #FF7E00;
+  border: 2px solid #E8580C;
 }
 
 .main {
+  padding: .75em;
   margin: auto;
   margin-top: 1em;
-  padding: .75em;
+  margin-bottom: 1em;
   color: #DEDECF;
-  width: 25%;
+  background-color: rgba(255, 126, 0, 0.15);
+  width: 30%;
   border: 2px solid #FF7E00;
   border-radius: 1em;
   font-family: 'Georgia', sans-serif;
@@ -47,12 +49,23 @@ div p {
 .list {
   margin-top: .25em;
   padding: .25em;
-  border: 1px dotted #CC6500;
-  color: #FF7E00;
-  text-shadow: 3px 2px 1px #222;
+  border: 1px dotted #E8580C;
+  text-shadow: 3px 2px 1px #222222;
 }
 
-.color-five {
+.product {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: .25em;
+  border: 2px solid #E8950C;
+  text-shadow: 3px 2px 1px #222222;
+}
+
+.color-primary {
+  color: #FF7E00 !important;
+}
+
+.font-color {
   color: #DEDECF;
 }
 
