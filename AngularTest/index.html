@@ -8,13 +8,15 @@
 	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 </head>
 <body ng-app='store'>
-  <p></p>
+
   <h1 class="fancy"> Arizonia </h1>
   <div class="main">
-    <p>Hello</p>
+    
+    <p class="header"> Controller Test </p>
     <div ng-controller="StoreController as store">
+
       <div class="list color-primary" ng-repeat="array in store.arrays1">
-        {{ array.num + ". " }} <span class="color-five"> {{ array.letter }} </span>
+        {{ array.num + ". " }} <span class="font-color"> {{ array.letter }} </span>
       </div>
       
       <div class="product color-primary">
@@ -23,8 +25,9 @@
       </div>
       
       <div class="list color-primary" ng-repeat="book in store.books">
-        <span> {{ book.title }} </span> <div class="font-color"> {{ book.author }}</div>
+        <span> {{ book.title }} </span> <p class="font-color"> {{ book.author }}</p>
       </div>
+      
     </div>
   </div>
 </body>

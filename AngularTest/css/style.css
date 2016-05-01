@@ -42,10 +42,6 @@ h1 {
   font-family: 'Georgia', sans-serif;
 }
 
-div p {
-  font-size: 1.2em;
-}
-
 .list {
   margin-top: .25em;
   padding: .25em;
@@ -54,8 +50,7 @@ div p {
 }
 
 .product {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin: 1em 0em;
   padding: .25em;
   border: 2px solid #E8950C;
   text-shadow: 3px 2px 1px #222222;
