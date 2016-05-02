@@ -1,10 +1,19 @@
 (function(){
   var app = angular.module('store', []);
   
-  app.controller('StoreController', function(){
+  app.controller('StoreController', function($scope, $http, $log){
     this.product = gems;
     this.arrays1 = arr1;
     this.books = book;
+
+    // $http({
+    //   method:'GET',
+    //   url: 'http://api.openweathermap.org/data/2.5/weather?q=Brooklyn,us&callback=test&appid=3bbd55527ee1ad0e5f326312904163d3',
+    // }).then(function(response) {
+    //   alert(response.data);
+    // }), function(reason) {
+    //   alert("No?");
+    // }
   });
   var gems = {
     name: 'Dodecahedron',
