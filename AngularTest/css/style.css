@@ -60,6 +60,11 @@ h1 {
   color: #FF7E00 !important;
 }
 
+.highlight {
+  color: #E8950C !important;
+  background-color: rgba(125, 125, 125, 0.35);
+}
+
 .font-color {
   color: #DEDECF;
 }

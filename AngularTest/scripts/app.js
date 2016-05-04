@@ -5,7 +5,9 @@
     this.product = gems;
     this.arrays1 = arr1;
     this.books = book;
-
+    
+    console.log("$http requesting");
+    
     $http({
       method:'GET',
       url: 'http://api.openweathermap.org/data/2.5/weather?q=Brooklyn,us&callback=test&appid=3bbd55527ee1ad0e5f326312904163d3',
@@ -20,6 +22,7 @@
     price: 2.95,
     description: 'I am a dodecahedron, therefore I am dodecaliously twelve sided.'
   };
+  
   
   var arr1 = [
     {"num": "1", "letter": "Alabama Arkansas"},
@@ -38,7 +41,7 @@
 })();
 
 $(document).ready(function() {
-  $("span").on("click", function() {
-    alert($(this));
+  $(".list").on("mouseover", function() {
+    $(this).toggleClass("highlight");
   })
 })
