@@ -25,7 +25,7 @@ h1 {
   font-family: $primary-font;
 }
 
-.fancy {
+.font-fancy {
   color: $primary-color;
   text-decoration: underline;
   -moz-text-decoration-color: $primary-color;
@@ -42,14 +42,16 @@ h1 {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  
+
+  width: 30%;
+  font-family: 'Georgia', sans-serif;
+}
+
+.mainStyle {
   color: $font-color;
   background-color: rgba($primary-color, .15);
-  
-  width: 30%;
   border: 2px solid $primary-color;
   border-radius: 1em;
-  font-family: 'Georgia', sans-serif;
 }
 
 .list {
@@ -70,17 +72,28 @@ h1 {
   color: $primary-color !important;
 }
 
-.highlight {
+.color-second {
   color: $second-color !important;
-  background-color: rgba(125, 125, 125, .35);
 }
 
 .font-color {
   color: $font-color;
 }
 
+.highlight {
+  color: $second-color !important;
+  background-color: rgba(125, 125, 125, .35);
+}
+
 .obj-title {
   font-size: 1.25em;
   text-decoration: underline;
   color: $font-color;
+}
+
+.leftBox {
+  float: left;
+  margin: 0em .5em;
+  height: 25em;
+  width: 20%;
 }

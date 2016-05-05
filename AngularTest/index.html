@@ -9,12 +9,16 @@
 </head>
 <body ng-app='store'>
 
-  <h1 class="fancy"> Arizonia </h1>
-  <div class="main">
+  <h1 class="font-fancy"> Arizonia </h1>
+  
+  <div class="leftBox mainStyle">
+  </div>
+  
+  <div class="main mainStyle">
     
     <p class="header"> Controller Test </p>
+    
     <div ng-controller="StoreController as store">
-
       <div class="list color-primary" ng-repeat="array in store.arrays1">
         {{ array.num + ". " }} <span class="font-color"> {{ array.letter }} </span>
       </div>
