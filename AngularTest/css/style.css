@@ -17,7 +17,7 @@ h1 {
   font-family: "Raleway", sans-serif;
 }
 
-.fancy {
+.font-fancy {
   color: #FF7E00;
   text-decoration: underline;
   -moz-text-decoration-color: #FF7E00;
@@ -30,16 +30,19 @@ h1 {
 }
 
 .main {
-  padding: .75em;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
+  width: 30%;
+  font-family: 'Georgia', sans-serif;
+}
+
+.mainStyle {
   color: #DEDECF;
   background-color: rgba(255, 126, 0, 0.15);
-  width: 30%;
+  padding: .75em;
   border: 2px solid #FF7E00;
   border-radius: 1em;
-  font-family: 'Georgia', sans-serif;
 }
 
 .list {
@@ -60,17 +63,29 @@ h1 {
   color: #FF7E00 !important;
 }
 
-.highlight {
+.color-second {
   color: #E8950C !important;
-  background-color: rgba(125, 125, 125, 0.35);
 }
 
 .font-color {
   color: #DEDECF;
 }
 
+.highlight {
+  color: #E8950C !important;
+  background-color: rgba(125, 125, 125, 0.35);
+}
+
 .obj-title {
   font-size: 1.25em;
   text-decoration: underline;
   color: #DEDECF;
+}
+
+.leftBox {
+  float: left;
+  margin: 0em .5em;
+  margin-top: 18px;
+  height: 100%;
+  width: 20%;
 }

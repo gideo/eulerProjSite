@@ -38,7 +38,6 @@ h1 {
 }
 
 .main {
-  padding: .75em;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -50,6 +49,8 @@ h1 {
 .mainStyle {
   color: $font-color;
   background-color: rgba($primary-color, .15);
+  
+  padding: .75em;
   border: 2px solid $primary-color;
   border-radius: 1em;
 }
@@ -94,6 +95,7 @@ h1 {
 .leftBox {
   float: left;
   margin: 0em .5em;
-  height: 25em;
+  margin-top: 18px;
+  height: 100%;
   width: 20%;
 }

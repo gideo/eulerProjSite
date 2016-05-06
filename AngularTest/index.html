@@ -12,6 +12,11 @@
   <h1 class="font-fancy"> Arizonia </h1>
   
   <div class="leftBox mainStyle">
+    <div ng-controller="StoreController as song">
+      <div class="list color-primary" ng-repeat="array in song.arrays1">
+        {{ array.num + ". " }} <span class="font-color"> {{ array.letter }} </span>
+      </div>
+    </div>
   </div>
   
   <div class="main mainStyle">
@@ -19,9 +24,6 @@
     <p class="header"> Controller Test </p>
     
     <div ng-controller="StoreController as store">
-      <div class="list color-primary" ng-repeat="array in store.arrays1">
-        {{ array.num + ". " }} <span class="font-color"> {{ array.letter }} </span>
-      </div>
       
       <div class="product color-primary">
         <span class="obj-title">{{ store.product.name + ": $" + store.product.price }}</span>
