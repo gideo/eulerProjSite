@@ -25,9 +25,9 @@
   
   
   var arr1 = [
-    {"num": "1", "letter": "Alabama Arkansas"},
-    {"num": "2", "letter": "Leather Jackets"},
-    {"num": "3", "letter": "Into the Darkness"}
+    {"title": "In the Rose Garden", "letter": "Alabama Arkansas"},
+    {"title": "Falling down Grass", "letter": "Leather Jackets"},
+    {"title": "Unto the Breach", "letter": "Into the Darkness"}
   ];
   
   var book = [
@@ -42,6 +42,8 @@
 
 $(document).ready(function() {
   $(".list").on("mouseover", function() {
-    $(this).toggleClass("highlight");
+    $(this).addClass("highlight");
+  }).on("mouseleave", function() {
+    $(this).removeClass("highlight");
   })
 })

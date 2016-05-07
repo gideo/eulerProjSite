@@ -12,9 +12,12 @@
   <h1 class="font-fancy"> Arizonia </h1>
   
   <div class="leftBox mainStyle">
+    
+    <p class="header"> Controller Test </p>
+    
     <div ng-controller="StoreController as song">
       <div class="list color-primary" ng-repeat="array in song.arrays1">
-        {{ array.num + ". " }} <span class="font-color"> {{ array.letter }} </span>
+        <span> {{ array.title }} </span> <p class="font-color"> {{ array.letter }} </p>
       </div>
     </div>
   </div>
