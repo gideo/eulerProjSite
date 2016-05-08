@@ -11,9 +11,20 @@
 
   <h1 class="font-fancy"> Arizonia </h1>
   
+  <div class="rightBox mainStyle">
+    <p class="header"> Right Controller Test </p>
+    
+    <div ng-controller="StoreController as store">
+      <div class="product color-primary">
+        <span class="obj-title">{{ store.product.name + ": $" + store.product.price }}</span>
+        <p> {{ store.product.description }} </p>
+      </div>
+    </div>
+  </div>
+  
   <div class="leftBox mainStyle">
     
-    <p class="header"> Controller Test </p>
+    <p class="header"> Left Controller Test </p>
     
     <div ng-controller="StoreController as song">
       <div class="list color-primary" ng-repeat="array in song.arrays1">
@@ -27,11 +38,6 @@
     <p class="header"> Controller Test </p>
     
     <div ng-controller="StoreController as store">
-      
-      <div class="product color-primary">
-        <span class="obj-title">{{ store.product.name + ": $" + store.product.price }}</span>
-        <p> {{ store.product.description }} </p>
-      </div>
       
       <div class="list color-primary" ng-repeat="book in store.books">
         <span> {{ book.title }} </span> <p class="font-color"> {{ book.author }}</p>

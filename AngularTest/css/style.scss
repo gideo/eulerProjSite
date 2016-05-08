@@ -87,13 +87,21 @@ h1 {
 }
 
 .obj-title {
-  font-size: 1.25em;
+  font-size: 1em;
   text-decoration: underline;
   color: $font-color;
 }
 
 .leftBox {
   float: left;
+  margin: 0em 1em;
+  margin-top: 18px;
+  height: 100%;
+  width: 25%;
+}
+
+.rightBox {
+  float: right;
   margin: 0em 1em;
   margin-top: 18px;
   height: 100%;
