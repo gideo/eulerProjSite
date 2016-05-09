@@ -15,9 +15,13 @@
     <p class="header"> Right Controller Test </p>
     
     <div ng-controller="StoreController as store">
-      <div class="product color-primary">
+<!--       <div class="product color-primary">
         <span class="obj-title">{{ store.product.name + ": $" + store.product.price }}</span>
         <p> {{ store.product.description }} </p>
+      </div> -->
+      
+      <div class="list color-primary" ng-repeat="gem in store.product">
+        <span> {{ gem.name }} </span> <span class="color-second"> {{ gem.price }}</span> <p class="font-color"> {{ gem.description }} </p>
       </div>
     </div>
   </div>

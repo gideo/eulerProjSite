@@ -8,20 +8,24 @@
     
     console.log("$http requesting");
     
-    $http({
-      method:'GET',
-      url: 'http://api.openweathermap.org/data/2.5/weather?q=Brooklyn,us&callback=test&appid=3bbd55527ee1ad0e5f326312904163d3',
-    }).then(function(response) {
-      alert(response.data);
-    }), function(reason) {
-      alert("No?");
-    }
+    // $http({
+    //   method:'GET',
+    //   url: 'http://api.openweathermap.org/data/2.5/weather?q=Brooklyn,us&callback=test&appid=3bbd55527ee1ad0e5f326312904163d3',
+    // }).then(function(response) {
+    //   alert(response.data);
+    // }), function(reason) {
+    //   alert("No?");
+    // }
   });
-  var gems = {
-    name: 'Dodecahedron',
-    price: 2.95,
-    description: 'I am a dodecahedron, therefore I am dodecaliously twelve sided.'
-  };
+  var gems = [ {
+    "name": 'Dodecahedron',
+    "price": 2.95,
+    "description": 'I am a dodecahedron, therefore I am dodecaliously twelve sided.'},
+    {"name": 'Tetrahedron',
+    "price": 1.95,
+    "description": 'I am a tetrahedron, therefore I am not of this time.'
+  }
+  ];
   
   
   var arr1 = [
