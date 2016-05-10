@@ -55,6 +55,15 @@ h1 {
   border-radius: 1em;
 }
 
+.otherStyle {
+  color: $font-color;
+  background-color: rgba($shadow-color, .2);
+  
+  padding: .75em;
+  border: 2px solid $third-color;
+  border-radius: 1em;
+}
+
 .list {
   margin-top: .25em;
   padding: .25em;

@@ -45,6 +45,14 @@ h1 {
   border-radius: 1em;
 }
 
+.otherStyle {
+  color: #DEDECF;
+  background-color: rgba(34, 34, 34, 0.2);
+  padding: .75em;
+  border: 2px solid #E8580C;
+  border-radius: 1em;
+}
+
 .list {
   margin-top: .25em;
   padding: .25em;
@@ -77,13 +85,21 @@ h1 {
 }
 
 .obj-title {
-  font-size: 1.25em;
+  font-size: 1em;
   text-decoration: underline;
   color: #DEDECF;
 }
 
 .leftBox {
   float: left;
+  margin: 0em 1em;
+  margin-top: 18px;
+  height: 100%;
+  width: 25%;
+}
+
+.rightBox {
+  float: right;
   margin: 0em 1em;
   margin-top: 18px;
   height: 100%;
