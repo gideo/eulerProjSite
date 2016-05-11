@@ -57,7 +57,7 @@ h1 {
 
 .otherStyle {
   color: $font-color;
-  background-color: rgba($shadow-color, .2);
+  background-color: rgba($third-color, .2);
   
   padding: .75em;
   border: 2px solid $third-color;
@@ -92,7 +92,7 @@ h1 {
 
 .highlight {
   color: $second-color !important;
-  background-color: rgba(125, 125, 125, .35);
+  background-color: rgba(185, 125, 125, .35);
 }
 
 .obj-title {
