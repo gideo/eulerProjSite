@@ -1,11 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-$primary-color: #FF7E00;
-$second-color: #E8950C;
+$primary-color: #FF7A0A;
+$second-color: #E8A50F;
 $third-color: #E8580C;
 $font-color: #DEDECF;
 $shadow-color: #222222;
 $primary-font: 'Raleway', sans-serif;
+$second-font: 'Montserrat', san-serif;
 
 body {
   margin: 0;
@@ -33,6 +35,9 @@ h1 {
 }
 
 .header {
+  cursor: default;
+  font-size: 1.1em;
+  font-family: $second-font;
   text-align: center;
   border: 2px solid $third-color;
 }

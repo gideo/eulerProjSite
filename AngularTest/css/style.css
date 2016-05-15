@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 body {
   margin: 0;
   padding: 0;
@@ -18,13 +19,16 @@ h1 {
 }
 
 .font-fancy {
-  color: #FF7E00;
+  color: #FF7A0A;
   text-decoration: underline;
-  -moz-text-decoration-color: #FF7E00;
-  text-decoration-color: #FF7E00;
+  -moz-text-decoration-color: #FF7A0A;
+  text-decoration-color: #FF7A0A;
 }
 
 .header {
+  cursor: default;
+  font-size: 1.1em;
+  font-family: "Montserrat", san-serif;
   text-align: center;
   border: 2px solid #E8580C;
 }
@@ -39,15 +43,15 @@ h1 {
 
 .mainStyle {
   color: #DEDECF;
-  background-color: rgba(255, 126, 0, 0.15);
+  background-color: rgba(255, 122, 10, 0.15);
   padding: .75em;
-  border: 2px solid #FF7E00;
+  border: 2px solid #FF7A0A;
   border-radius: 1em;
 }
 
 .otherStyle {
   color: #DEDECF;
-  background-color: rgba(34, 34, 34, 0.2);
+  background-color: rgba(232, 88, 12, 0.2);
   padding: .75em;
   border: 2px solid #E8580C;
   border-radius: 1em;
@@ -63,16 +67,16 @@ h1 {
 .product {
   margin: 1em 0em;
   padding: .25em;
-  border: 2px solid #E8950C;
+  border: 2px solid #E8A50F;
   text-shadow: 3px 2px 1px #222222;
 }
 
 .color-primary {
-  color: #FF7E00 !important;
+  color: #FF7A0A !important;
 }
 
 .color-second {
-  color: #E8950C !important;
+  color: #E8A50F !important;
 }
 
 .font-color {
@@ -80,8 +84,8 @@ h1 {
 }
 
 .highlight {
-  color: #E8950C !important;
-  background-color: rgba(125, 125, 125, 0.35);
+  color: #E8A50F !important;
+  background-color: rgba(185, 125, 125, 0.35);
 }
 
 .obj-title {

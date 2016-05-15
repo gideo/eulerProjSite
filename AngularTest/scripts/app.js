@@ -5,9 +5,8 @@
     this.product = gems;
     this.arrays1 = arr1;
     this.books = book;
-    
-    console.log("$http requesting");
   });
+  
   var gems = [ 
     {
       "name": 'Dodecahedron',
@@ -33,8 +32,6 @@
     {"title": "Unto the Breach", "desc": "Into the Darkness"},
     {"title": "Wysteria", "desc": "A Morsel of Food"},
     {"title": "Wrathland", "desc": "Fomenting Dissent"},
-    {"title": "????"},
-    {"desc" : "?????"}
   ];
   
   var book = [
