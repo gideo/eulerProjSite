@@ -5,22 +5,32 @@
     this.product = gems;
     this.arrays1 = arr1;
     this.books = book;
+    
+    console.log("$http requesting");
+    
+    // $http({
+    //   method:'GET',
+    //   url: 'http://api.openweathermap.org/data/2.5/weather?q=Brooklyn,us&callback=test&appid=3bbd55527ee1ad0e5f326312904163d3',
+    // }).then(function(response) {
+    //   alert(response.data);
+    // }), function(reason) {
+    //   alert("No?");
+    // }
   });
-  
   var gems = [ 
     {
       "name": 'Dodecahedron',
-      "price": 2.95,
+      "price": '2.95',
       "description": 'I am a dodecahedron, therefore I am dodecaliously twelve sided.'
     },
     {
       "name": 'Tetrahedron',
-      "price": 1.95,
+      "price": '1.95',
       "description": 'I am a tetrahedron, therefore I am not of this time.'
     },
     {
       "name": 'Pentagram',
-      "price": 5.00,
+      "price": '5.00',
       "description": 'I\'m pretty metal.'
     }
   ];

@@ -36,7 +36,6 @@ h1 {
 
 .header {
   cursor: default;
-  font-size: 1.1em;
   font-family: $second-font;
   text-align: center;
   border: 2px solid $third-color;
@@ -45,10 +44,7 @@ h1 {
 .main {
   margin: auto;
   margin-top: 1em;
-  margin-bottom: 1em;
-
   width: 30%;
-  font-family: 'Georgia', sans-serif;
 }
 
 .mainStyle {
@@ -84,11 +80,11 @@ h1 {
 }
 
 .color-primary {
-  color: $primary-color !important;
+  color: $primary-color;
 }
 
 .color-second {
-  color: $second-color !important;
+  color: $second-color;
 }
 
 .font-color {
@@ -110,14 +106,12 @@ h1 {
   float: left;
   margin: 0em 1em;
   margin-top: 18px;
-  height: 100%;
-  width: 25%;
+  width: 27.5%;
 }
 
 .rightBox {
   float: right;
   margin: 0em 1em;
   margin-top: 18px;
-  height: 100%;
-  width: 25%;
+  width: 27.5%;
 }
