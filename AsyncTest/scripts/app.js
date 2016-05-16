@@ -1,4 +1,6 @@
 document.getElementById("idd").innerHTML += ("Hello World!");
+document.querySelector("boxCenter").innerHTML += ("Wut www");
+document.getElementById("idd").innerHTML += ("WOoot!");
 
 // var xhr = new XMLHttpRequest();
 var url = "http://api.openweathermap.org/data/2.5/weather?q=Brooklyn,us&callback=test&appid=3bbd55527ee1ad0e5f326312904163d3";
@@ -10,9 +12,9 @@ $.getJSON(wiki ,function(data) {
   var hash = data;
   var page_value = "";
   $.each(data["query"]["pages"],function(k,v){
-    alert(k);
+    console.log(k);
     $.each(v,function(key,val){
-      alert(key);
+      console.log(key);
     });
   });
 });
