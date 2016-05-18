@@ -27,7 +27,6 @@ h1 {
 
 .header {
   cursor: default;
-  font-size: 1.1em;
   font-family: "Montserrat", san-serif;
   text-align: center;
   border: 2px solid #E8580C;
@@ -36,9 +35,7 @@ h1 {
 .main {
   margin: auto;
   margin-top: 1em;
-  margin-bottom: 1em;
   width: 30%;
-  font-family: 'Georgia', sans-serif;
 }
 
 .mainStyle {
@@ -72,11 +69,11 @@ h1 {
 }
 
 .color-primary {
-  color: #FF7A0A !important;
+  color: #FF7A0A;
 }
 
 .color-second {
-  color: #E8A50F !important;
+  color: #E8A50F;
 }
 
 .font-color {
@@ -85,6 +82,8 @@ h1 {
 
 .highlight {
   color: #E8A50F !important;
+  padding-top: .65em;
+  padding-bottom: .65em;
   background-color: rgba(185, 125, 125, 0.35);
 }
 
@@ -98,14 +97,12 @@ h1 {
   float: left;
   margin: 0em 1em;
   margin-top: 18px;
-  height: 100%;
-  width: 25%;
+  width: 27.5%;
 }
 
 .rightBox {
   float: right;
   margin: 0em 1em;
   margin-top: 18px;
-  height: 100%;
-  width: 25%;
+  width: 27.5%;
 }

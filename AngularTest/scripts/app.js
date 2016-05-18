@@ -32,6 +32,11 @@
       "name": 'Pentagram',
       "price": '5.00',
       "description": 'I\'m pretty metal.'
+    },
+    {
+      "name": 'Hexagram',
+      "price": '6.06',
+      "description": 'It is pretty hectic.'
     }
   ];
   
