@@ -60,7 +60,7 @@
 })();
 
 $(document).ready(function() {
-  $(".list, .header").on("mouseover", function() {
+  $(".list").on("mouseover", function() {
     $(this).addClass("highlight");
   }).on("mouseleave", function() {
     $(this).removeClass("highlight");

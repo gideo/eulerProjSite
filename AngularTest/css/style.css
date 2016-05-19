@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 body {
+  position: relative;
+  padding-bottom: 6rem;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -19,10 +21,10 @@ h1 {
 }
 
 .font-fancy {
-  color: #FF7A0A;
+  color: #DF7A0A;
   text-decoration: underline;
-  -moz-text-decoration-color: #FF7A0A;
-  text-decoration-color: #FF7A0A;
+  -moz-text-decoration-color: #DF7A0A;
+  text-decoration-color: #DF7A0A;
 }
 
 .header {
@@ -40,9 +42,9 @@ h1 {
 
 .mainStyle {
   color: #DEDECF;
-  background-color: rgba(255, 122, 10, 0.15);
+  background-color: rgba(223, 122, 10, 0.15);
   padding: .75em;
-  border: 2px solid #FF7A0A;
+  border: 2px solid #DF7A0A;
   border-radius: 1em;
 }
 
@@ -69,7 +71,7 @@ h1 {
 }
 
 .color-primary {
-  color: #FF7A0A;
+  color: #DF7A0A;
 }
 
 .color-second {
@@ -82,8 +84,8 @@ h1 {
 
 .highlight {
   color: #E8A50F !important;
-  padding-top: .65em;
-  padding-bottom: .65em;
+  padding-top: .5em;
+  padding-bottom: .5em;
   background-color: rgba(185, 125, 125, 0.35);
 }
 
@@ -105,4 +107,18 @@ h1 {
   margin: 0em 1em;
   margin-top: 18px;
   width: 27.5%;
+}
+
+.space {
+  height: 100px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }

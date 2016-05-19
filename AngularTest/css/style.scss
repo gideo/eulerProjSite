@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-$primary-color: #FF7A0A;
+$primary-color: #DF7A0A;
 $second-color: #E8A50F;
 $third-color: #E8580C;
 $font-color: #DEDECF;
@@ -10,6 +10,8 @@ $primary-font: 'Raleway', sans-serif;
 $second-font: 'Montserrat', san-serif;
 
 body {
+  position: relative;
+  padding-bottom: 6rem;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -93,8 +95,8 @@ h1 {
 
 .highlight {
   color: $second-color !important;
-  padding-top: .65em;
-  padding-bottom: .65em;
+  padding-top: .5em;
+  padding-bottom: .5em;
   background-color: rgba(185, 125, 125, .35);
 }
 
@@ -116,4 +118,18 @@ h1 {
   margin: 0em 1em;
   margin-top: 18px;
   width: 27.5%;
+}
+
+.space {
+  height: 100px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
