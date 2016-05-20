@@ -17,7 +17,7 @@
     <div ng-controller="StoreController as store">
       
       <div class="list color-primary" ng-repeat="gem in store.product">
-        <span> {{ gem.name }} </span> <span class="color-second"> {{ gem.price }}</span> <p class="font-color"> {{ gem.description }} </p>
+        <span> {{ gem.name }} </span> <span class="color-second"> ${{ gem.price }} </span> <p class="font-color"> {{ gem.description }} </p>
       </div>
     </div>
   </div>
@@ -27,7 +27,7 @@
     
     <div ng-controller="StoreController as song">
       <div class="list color-primary" ng-repeat="array in song.arrays1">
-        <span> {{ array.title }} </span> <p class="font-color"> {{ array.letter }} </p>
+        <span> {{ array.title }} </span> <p class="font-color"> {{ array.desc }} </p>
       </div>
     </div>
   </div>
@@ -44,8 +44,8 @@
       
     </div>
   </div>
-
+  
   <div class="space"></div>
-  <div class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</div>
+  <div class="footer font-color">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</div>
 </body>
 </html>

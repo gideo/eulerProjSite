@@ -8,6 +8,7 @@ $font-color: #DEDECF;
 $shadow-color: #222222;
 $primary-font: 'Raleway', sans-serif;
 $second-font: 'Montserrat', san-serif;
+$bg-color: rgba(185, 125, 125, .35);
 
 body {
   position: relative;
@@ -97,7 +98,12 @@ h1 {
   color: $second-color !important;
   padding-top: .5em;
   padding-bottom: .5em;
-  background-color: rgba(185, 125, 125, .35);
+  background-color: $bg-color;
+}
+
+.mouseover {
+  color: $second-color;
+  background-color: $bg-color; 
 }
 
 .obj-title {
@@ -130,6 +136,6 @@ h1 {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: $primary-color;
   text-align: center;
 }

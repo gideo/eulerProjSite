@@ -89,6 +89,11 @@ h1 {
   background-color: rgba(185, 125, 125, 0.35);
 }
 
+.mouseover {
+  color: #E8A50F;
+  background-color: rgba(185, 125, 125, 0.35);
+}
+
 .obj-title {
   font-size: 1em;
   text-decoration: underline;
@@ -119,6 +124,6 @@ h1 {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: #DF7A0A;
   text-align: center;
 }

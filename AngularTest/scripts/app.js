@@ -60,6 +60,11 @@
 })();
 
 $(document).ready(function() {
+  $(".header").on("mouseover", function() {
+    $(this).addClass("mouseover");
+  }).on("mouseleave", function() {
+    $(this).removeClass("mouseover");
+  });
   $(".list").on("mouseover", function() {
     $(this).addClass("highlight");
   }).on("mouseleave", function() {
