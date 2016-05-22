@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One);
+
+$border1: rgba(120, 175, 185, .85);
+$border2: rgba(220, 185, 155, .75);
+$bg1 : #acbcdc;
+$osans-font: "Open Sans", sans-serif;
+$fugaz-font: "Fugaz One", sans-serif;
+
+body {
+  margin: 0;
+  padding: auto;
+}
+
+h1 {
+  font-family: $fugaz-font;
+  text-align: center;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: blue;
+}
+
+.box {
+  margin: 1em;
+  padding: .25em;
+  background: #ffe;
+  height: 16em;
+  border: 3px solid $border2;
+}
+
+.square {
+  margin: 1em;
+  height: 60%;
+  width: 300px;
+  border: 4px solid $border1;
+  background: $bg1;
+  float: left;
+}
+
+.imgSize1 {
+  height: 100%;
+  width: 100%;
+}
+
+.paraG {
+  font-family: $osans-font;
+}
