@@ -3,7 +3,8 @@
 body {
   margin: 0;
   padding: auto;
-  background: #FEFEFE;
+  background: url("https://www.dropbox.com/s/bxrx0k0zbmqfr5l/basil-herbs-green-mediterranean-40720.jpeg?dl=1");
+  background-size: cover;
 }
 
 h1 {
@@ -18,10 +19,10 @@ p::first-letter {
 
 .mainBox {
   margin: 1em;
-  padding: .25em;
-  background: rgba(235, 225, 235, 0.45);
+  padding: .75em;
+  background: #ebf5eb;
   height: 16em;
-  border: 2px solid rgba(220, 185, 155, 0.75);
+  border: 2px solid rgba(120, 175, 185, 0.85);
   border-radius: 1em;
 }
 

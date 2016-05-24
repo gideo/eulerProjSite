@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 
 $border1: rgba(120, 175, 185, .85);
-$border2: rgba(220, 185, 155, .75);
 $bg1 : #acbcdc;
 $osans-font: "Open Sans", sans-serif;
 $fugaz-font: "Fugaz One", sans-serif;
@@ -11,7 +10,8 @@ body {
   margin: 0;
   padding: auto;
   
-  background: #FEFEFE;
+  background: url("https://www.dropbox.com/s/bxrx0k0zbmqfr5l/basil-herbs-green-mediterranean-40720.jpeg?dl=1");
+  background-size: cover;
 }
 
 h1 {
@@ -26,10 +26,10 @@ p::first-letter {
 
 .mainBox {
   margin: 1em;
-  padding: .25em;
-  background: rgba(235, 225, 235, .45);
+  padding: .75em;
+  background: rgb(235, 245, 235);
   height: 16em;
-  border: 2px solid $border2;
+  border: 2px solid $border1;
   border-radius: 1em;
 }
 
