@@ -19,28 +19,33 @@ h1 {
   text-align: center;
 }
 
-p::first-letter {
+.paragraph::first-letter {
   font-size: 200%;
   color: blue;
 }
 
 .mainBox {
   margin: 1em;
+  margin-bottom: 4em;
   padding: .75em;
   background: rgb(235, 245, 235);
-  height: 16em;
+  height: 100%;
   border: 2px solid $border1;
   border-radius: 1em;
 }
 
 .square {
   margin: 1em;
-  height: 60%;
+  height: 200px;
   width: 300px;
   border: 2px solid $border1;
   border-radius: 1em;
   background: $bg1;
   float: left;
+}
+
+.vertical {
+  height: 250px !important;
 }
 
 .imgSize1 {
@@ -49,6 +54,6 @@ p::first-letter {
   width: 100%;
 }
 
-.paraG {
+.paragraph {
   font-family: $osans-font;
 }
