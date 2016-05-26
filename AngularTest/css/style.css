@@ -1,129 +1,55 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 body {
-  position: relative;
-  padding-bottom: 6rem;
   margin: 0;
-  padding: 0;
-  background-color: black;
-  background-image: url("https://www.dropbox.com/s/of9vajj6x724km8/dusty-sky.png?dl=1");
+  padding: auto;
+  background: url("https://www.dropbox.com/s/bxrx0k0zbmqfr5l/basil-herbs-green-mediterranean-40720.jpeg?dl=1");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  font-size: 1.6em;
+  font-size: .95em;
 }
 
 h1 {
-  margin: auto;
+  font-family: "Fugaz One", sans-serif;
   text-align: center;
-  font-size: 3em;
-  font-family: "Raleway", sans-serif;
+  text-shadow: 2px 2px 1px #fff;
 }
 
-.font-fancy {
-  color: #DF7A0A;
-  text-decoration: underline;
-  -moz-text-decoration-color: #DF7A0A;
-  text-decoration-color: #DF7A0A;
+.paragraph::first-letter {
+  font-size: 150%;
+  color: blue;
 }
 
-.header {
-  cursor: default;
-  font-family: "Montserrat", san-serif;
-  text-align: center;
-  border: 2px solid #E8580C;
-}
-
-.main {
+.mainBox {
   margin: auto;
-  margin-top: 1em;
-  width: 30%;
-}
-
-.mainStyle {
-  color: #DEDECF;
-  background-color: rgba(223, 122, 10, 0.15);
+  margin-bottom: 4em;
   padding: .75em;
-  border: 2px solid #DF7A0A;
+  background: #EAFEFE;
+  height: 100%;
+  width: 80%;
+  border: 2px solid rgba(120, 175, 185, 0.95);
   border-radius: 1em;
 }
 
-.otherStyle {
-  color: #DEDECF;
-  background-color: rgba(232, 88, 12, 0.2);
-  padding: .75em;
-  border: 2px solid #E8580C;
+.square {
+  margin: 1em;
+  height: 200px;
+  width: 300px;
+  border: 2px solid rgba(120, 175, 185, 0.95);
   border-radius: 1em;
-}
-
-.list {
-  margin-top: .25em;
-  padding: .25em;
-  border: 1px dotted #E8580C;
-  text-shadow: 3px 2px 1px #222222;
-}
-
-.product {
-  margin: 1em 0em;
-  padding: .25em;
-  border: 2px solid #E8A50F;
-  text-shadow: 3px 2px 1px #222222;
-}
-
-.color-primary {
-  color: #DF7A0A;
-}
-
-.color-second {
-  color: #E8A50F;
-}
-
-.font-color {
-  color: #DEDECF;
-}
-
-.highlight {
-  color: #E8A50F !important;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  background-color: rgba(185, 125, 125, 0.35);
-}
-
-.mouseover {
-  color: #E8A50F;
-  background-color: rgba(185, 125, 125, 0.35);
-}
-
-.obj-title {
-  font-size: 1em;
-  text-decoration: underline;
-  color: #DEDECF;
-}
-
-.leftBox {
+  background: #EAFEFE;
   float: left;
-  margin: 0em 1em;
-  margin-top: 18px;
-  width: 27.5%;
 }
 
-.rightBox {
-  float: right;
-  margin: 0em 1em;
-  margin-top: 18px;
-  width: 27.5%;
+.vertical {
+  height: 250px !important;
 }
 
-.space {
-  height: 100px;
+.imgSize1 {
+  border-radius: inherit;
+  height: 100%;
+  width: 100%;
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #DF7A0A;
-  text-align: center;
+.paragraph {
+  font-family: "Open Sans", sans-serif;
 }
