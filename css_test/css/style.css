@@ -5,35 +5,44 @@ body {
   padding: auto;
   background: url("https://www.dropbox.com/s/bxrx0k0zbmqfr5l/basil-herbs-green-mediterranean-40720.jpeg?dl=1");
   background-size: cover;
+  font-size: .95em;
 }
 
 h1 {
   font-family: "Fugaz One", sans-serif;
   text-align: center;
+  text-shadow: 2px 2px 1px #fff;
 }
 
-p::first-letter {
-  font-size: 200%;
+.paragraph::first-letter {
+  font-size: 150%;
   color: blue;
 }
 
 .mainBox {
-  margin: 1em;
+  margin: auto;
+  margin-bottom: 4em;
   padding: .75em;
-  background: #ebf5eb;
-  height: 16em;
-  border: 2px solid rgba(120, 175, 185, 0.85);
+  background: #EAFEFE;
+  height: 100%;
+  width: 80%;
+  border: 2px solid rgba(120, 175, 185, 0.95);
   border-radius: 1em;
 }
 
 .square {
-  margin: 1em;
-  height: 60%;
+  margin: .5em;
+  height: 235px;
   width: 300px;
-  border: 2px solid rgba(120, 175, 185, 0.85);
+  border: 2px solid rgba(120, 175, 185, 0.95);
   border-radius: 1em;
-  background: #acbcdc;
+  background: #EAFEFE;
   float: left;
+  box-shadow: 2px 2px 2px rgba(120, 175, 185, 0.95);
+}
+
+.vertical {
+  height: 250px !important;
 }
 
 .imgSize1 {
@@ -42,6 +51,17 @@ p::first-letter {
   width: 100%;
 }
 
-.paraG {
+.paragraph {
+  padding: .5em;
   font-family: "Open Sans", sans-serif;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #EAFEFE;
+  text-align: center;
 }

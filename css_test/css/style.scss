@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 
-$border1: rgba(120, 175, 185, .85);
-$bg1 : #acbcdc;
+$border1: rgba(120, 175, 185, .95);
+$bg1 : #EAFEFE;
 $osans-font: "Open Sans", sans-serif;
 $fugaz-font: "Fugaz One", sans-serif;
 
@@ -12,36 +12,40 @@ body {
   
   background: url("https://www.dropbox.com/s/bxrx0k0zbmqfr5l/basil-herbs-green-mediterranean-40720.jpeg?dl=1");
   background-size: cover;
+  font-size: .95em;
 }
 
 h1 {
   font-family: $fugaz-font;
   text-align: center;
+  text-shadow: 2px 2px 1px #fff;
 }
 
 .paragraph::first-letter {
-  font-size: 200%;
+  font-size: 150%;
   color: blue;
 }
 
 .mainBox {
-  margin: 1em;
+  margin: auto;
   margin-bottom: 4em;
   padding: .75em;
-  background: rgb(235, 245, 235);
+  background: $bg1;
   height: 100%;
+  width: 80%;
   border: 2px solid $border1;
   border-radius: 1em;
 }
 
 .square {
-  margin: 1em;
-  height: 200px;
+  margin: .5em;
+  height: 235px;
   width: 300px;
   border: 2px solid $border1;
   border-radius: 1em;
   background: $bg1;
   float: left;
+  box-shadow: 2px 2px 2px $border1;
 }
 
 .vertical {
@@ -55,5 +59,16 @@ h1 {
 }
 
 .paragraph {
+  padding: .5em;
   font-family: $osans-font;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: $bg1;
+  text-align: center;
 }
