@@ -21,11 +21,6 @@ h1 {
   text-shadow: 2px 2px 1px #fff;
 }
 
-.paragraph::first-letter {
-  font-size: 150%;
-  color: blue;
-}
-
 .mainBox {
   margin: auto;
   margin-bottom: 4em;
@@ -60,7 +55,13 @@ h1 {
 
 .paragraph {
   padding: .5em;
+  text-indent: 12px;
   font-family: $osans-font;
+}
+
+.paragraph::first-letter {
+  font-size: 150%;
+  color: blue;
 }
 
 .footer {
