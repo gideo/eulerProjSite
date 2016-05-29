@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 
-$border1: rgba(120, 175, 185, .95);
+$border1: rgba(125, 175, 185, .95);
 $bg1 : #EAFEFE;
+$bg2 : #CAEAFE;
 $osans-font: "Open Sans", sans-serif;
 $fugaz-font: "Fugaz One", sans-serif;
 
@@ -23,13 +24,22 @@ h1 {
 
 .mainBox {
   margin: auto;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   padding: .75em;
   background: $bg1;
   height: 100%;
   width: 80%;
   border: 2px solid $border1;
   border-radius: 1em;
+}
+
+.title {
+  margin: auto;
+  margin: .5em auto;
+  background: $bg2;
+  width: 45%;
+  border: 1px solid $border1;
+  border-radius: .55em;
 }
 
 .square {
