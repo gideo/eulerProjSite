@@ -37,7 +37,7 @@ h1 {
   margin: auto;
   margin: .5em auto;
   background: $bg2;
-  width: 45%;
+  width: 55%;
   border: 1px solid $border1;
   border-radius: 3em 1em 3em;
 }
@@ -53,10 +53,6 @@ h1 {
   box-shadow: 2px 2px 2px $border1;
 }
 
-.vertical {
-  height: 250px !important;
-}
-
 .imgSize1 {
   border-radius: inherit;
   height: 100%;
@@ -70,7 +66,7 @@ h1 {
 }
 
 .paragraph::first-letter {
-  font-size: 150%;
+  font-size: 1.5em;
   color: blue;
 }
 
@@ -80,6 +76,6 @@ h1 {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: $bg1;
+  background-color: $bg2;
   text-align: center;
 }
