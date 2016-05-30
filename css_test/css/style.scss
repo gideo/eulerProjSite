@@ -3,7 +3,7 @@
 
 $border1: rgba(125, 175, 185, .95);
 $bg1 : #EAFEFE;
-$bg2 : #CAEAFE;
+$bg2 : #DAEAFE;
 $osans-font: "Open Sans", sans-serif;
 $fugaz-font: "Fugaz One", sans-serif;
 
@@ -39,7 +39,7 @@ h1 {
   background: $bg2;
   width: 45%;
   border: 1px solid $border1;
-  border-radius: .55em;
+  border-radius: 3em 1em 3em;
 }
 
 .square {
@@ -64,7 +64,7 @@ h1 {
 }
 
 .paragraph {
-  padding: .5em;
+  padding: .25em;
   text-indent: 12px;
   font-family: $osans-font;
 }
