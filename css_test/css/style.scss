@@ -4,6 +4,7 @@
 $border1: rgba(125, 175, 185, .95);
 $bg1 : #EAFEFE;
 $bg2 : #DAEAFE;
+$bg3 : #63A393;
 $osans-font: "Open Sans", sans-serif;
 $fugaz-font: "Fugaz One", sans-serif;
 
@@ -78,4 +79,32 @@ h1 {
   padding: 1rem;
   background-color: $bg2;
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $bg3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover:not(.active) {
+  background-color: $bg2;
+}
+
+.active {
+  background-color: $bg2;
 }
