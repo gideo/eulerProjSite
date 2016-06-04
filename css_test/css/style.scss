@@ -89,6 +89,11 @@ ul {
   background-color: $bg3;
 }
 
+.nav {
+  position: fixed;
+  top: 0px;
+}
+
 li {
   float: left;
 }

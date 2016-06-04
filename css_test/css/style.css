@@ -80,6 +80,11 @@ ul {
   background-color: #63A393;
 }
 
+.nav {
+  position: fixed;
+  top: 0px;
+}
+
 li {
   float: left;
 }
