@@ -26,8 +26,7 @@ h1 {
 }
 
 .title {
-  margin: auto;
-  margin: .5em auto;
+  margin: 2em auto;
   background: #DAEAFE;
   width: 55%;
   border: 1px solid rgba(125, 175, 185, 0.95);
@@ -83,6 +82,7 @@ ul {
 .nav {
   position: fixed;
   top: 0px;
+  width: 100%;
 }
 
 li {
@@ -93,7 +93,7 @@ li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-decoration: none;
 }
 
