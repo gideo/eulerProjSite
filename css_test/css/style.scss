@@ -31,6 +31,9 @@ h1 {
   height: 100%;
   width: 80%;
   border: 2px solid $border1;
+  -moz-box-shadow: 0 0 10px 5px $bg1;
+  -webkit-box-shadow: 0 0 10px 5px $bg1;
+  box-shadow: 0 0 10px 5px $bg1;
   border-radius: 1em;
 }
 
@@ -115,5 +118,5 @@ a:hover:not(.active) {
 }
 
 .active {
-  background-color: $bg2;
+  background-color: $bg1;
 }
