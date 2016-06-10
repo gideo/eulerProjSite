@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
+canvas {
+  margin: auto;
+  padding: 0;
+  background: #FFF;
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   padding: auto;
@@ -22,10 +29,13 @@ h1 {
   height: 100%;
   width: 80%;
   border: 2px solid rgba(125, 175, 185, 0.95);
+  border-radius: 1em;
+}
+
+.halo {
   -moz-box-shadow: 0 0 10px 5px #EAFEFE;
   -webkit-box-shadow: 0 0 10px 5px #EAFEFE;
   box-shadow: 0 0 10px 5px #EAFEFE;
-  border-radius: 1em;
 }
 
 .title {

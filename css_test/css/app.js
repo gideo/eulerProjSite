@@ -1,3 +1,5 @@
+'use strict';
+
 $(document).ready(function() {
   $(".paragraph").on("mouseover", function() {
     $(this).addClass("active");
@@ -6,6 +8,12 @@ $(document).ready(function() {
   })
   
   $(".imgSize1").on("mouseover", function() {
+    $(this).addClass("squareL");
+  }).on("mouseleave", function() {
+    $(this).removeClass("squareL");
+  })
+  
+  $(".title, .mainBox").on("mouseover", function() {
     $(this).addClass("squareL");
   }).on("mouseleave", function() {
     $(this).removeClass("squareL");

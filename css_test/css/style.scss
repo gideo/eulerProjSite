@@ -8,6 +8,13 @@ $bg3 : #63A393;
 $osans-font: "Open Sans", sans-serif;
 $fugaz-font: "Fugaz One", sans-serif;
 
+canvas {
+  margin: auto;
+  padding: 0;
+  background: #FFF;
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   padding: auto;
@@ -31,10 +38,13 @@ h1 {
   height: 100%;
   width: 80%;
   border: 2px solid $border1;
+  border-radius: 1em;
+}
+
+.halo {
   -moz-box-shadow: 0 0 10px 5px $bg1;
   -webkit-box-shadow: 0 0 10px 5px $bg1;
   box-shadow: 0 0 10px 5px $bg1;
-  border-radius: 1em;
 }
 
 .title {
