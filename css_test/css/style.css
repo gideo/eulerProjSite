@@ -10,7 +10,7 @@ canvas {
 body {
   margin: 0;
   padding: auto;
-  background: url("https://www.dropbox.com/s/bxrx0k0zbmqfr5l/basil-herbs-green-mediterranean-40720.jpeg?dl=1");
+  background: url("https://www.dropbox.com/s/ktim356chh2xb8m/aJlw32J.jpg?dl=1");
   background-size: cover;
   font-size: .95em;
 }
@@ -25,7 +25,7 @@ h1 {
   margin: auto;
   margin-bottom: 3em;
   padding: .75em;
-  background: #EAFEFE;
+  background: #EAFEEE;
   height: 100%;
   width: 80%;
   border: 2px solid rgba(125, 175, 185, 0.95);
@@ -33,14 +33,14 @@ h1 {
 }
 
 .halo {
-  -moz-box-shadow: 0 0 10px 5px #EAFEFE;
-  -webkit-box-shadow: 0 0 10px 5px #EAFEFE;
-  box-shadow: 0 0 10px 5px #EAFEFE;
+  -moz-box-shadow: 0 0 10px 5px #EAFEEE;
+  -webkit-box-shadow: 0 0 10px 5px #EAFEEE;
+  box-shadow: 0 0 10px 5px #EAFEEE;
 }
 
 .title {
   margin: 2em auto;
-  background: #DAEAFE;
+  background: #DAEAEE;
   width: 55%;
   border: 1px solid rgba(125, 175, 185, 0.95);
   border-radius: 3em 1em 3em;
@@ -52,13 +52,13 @@ h1 {
   width: 300px;
   border: 2px solid rgba(125, 175, 185, 0.95);
   border-radius: 1em;
-  background: #EAFEFE;
+  background: #EAFEEE;
   float: left;
   box-shadow: 2px 2px 2px rgba(125, 175, 185, 0.95);
 }
 
 .squareL {
-  box-shadow: 5px 5px 25px #DAEAFE;
+  box-shadow: 5px 5px 25px #DAEAEE;
 }
 
 .imgSize1 {
@@ -84,16 +84,15 @@ h1 {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #DAEAFE;
+  background-color: #DAEAEE;
   text-align: center;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
-  background-color: #63A393;
+  background-color: #7CB9E8;
 }
 
 .nav {
@@ -115,9 +114,9 @@ li a {
 }
 
 a:hover:not(.active) {
-  background-color: #DAEAFE;
+  background-color: #EAFEEE;
 }
 
 .active {
-  background-color: #EAFEFE;
+  background-color: #EAFEEE;
 }

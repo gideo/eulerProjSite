@@ -2,9 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 
 $border1: rgba(125, 175, 185, .95);
-$bg1 : #EAFEFE;
-$bg2 : #DAEAFE;
-$bg3 : #63A393;
+$bg1 : #EAFEEE;
+$bg2 : #DAEAEE;
+$bg3 : #63A3A3;
+$navBlue : #7CB9E8;
 $osans-font: "Open Sans", sans-serif;
 $fugaz-font: "Fugaz One", sans-serif;
 
@@ -100,9 +101,8 @@ h1 {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
-  background-color: $bg3;
+  background-color: $navBlue;
 }
 
 .nav {
@@ -124,7 +124,7 @@ li a {
 }
 
 a:hover:not(.active) {
-  background-color: $bg2;
+  background-color: $bg1;
 }
 
 .active {
