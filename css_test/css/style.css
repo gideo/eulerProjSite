@@ -25,7 +25,7 @@ h1 {
   margin: auto;
   margin-bottom: 3em;
   padding: .75em;
-  background: #EAFEEE;
+  background: #EAFEFE;
   height: 100%;
   width: 80%;
   border: 2px solid rgba(125, 175, 185, 0.95);
@@ -33,9 +33,9 @@ h1 {
 }
 
 .halo {
-  -moz-box-shadow: 0 0 10px 5px #EAFEEE;
-  -webkit-box-shadow: 0 0 10px 5px #EAFEEE;
-  box-shadow: 0 0 10px 5px #EAFEEE;
+  -moz-box-shadow: 0 0 10px 5px #EAFEFE;
+  -webkit-box-shadow: 0 0 10px 5px #EAFEFE;
+  box-shadow: 0 0 10px 5px #EAFEFE;
 }
 
 .title {
@@ -52,7 +52,7 @@ h1 {
   width: 300px;
   border: 2px solid rgba(125, 175, 185, 0.95);
   border-radius: 1em;
-  background: #EAFEEE;
+  background: #EAFEFE;
   float: left;
   box-shadow: 2px 2px 2px rgba(125, 175, 185, 0.95);
 }
@@ -84,7 +84,7 @@ h1 {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #DAEAEE;
+  background-color: #9CB9E8;
   text-align: center;
 }
 
@@ -92,7 +92,7 @@ ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  background-color: #7CB9E8;
+  background-color: #9CB9E8;
 }
 
 .nav {
@@ -114,9 +114,9 @@ li a {
 }
 
 a:hover:not(.active) {
-  background-color: #EAFEEE;
+  background-color: #EAFEFE;
 }
 
 .active {
-  background-color: #EAFEEE;
+  background-color: #EAFEFE;
 }
