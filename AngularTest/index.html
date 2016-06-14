@@ -8,14 +8,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 </head>
 <body ng-app='store'>
-
   <h1 class="font-fancy"> Arizonia </h1>
   
   <div class="rightBox otherStyle">
     <p class="header"> Right Controller Test </p>
     
     <div ng-controller="StoreController as store">
-      
       <div class="list color-primary" ng-repeat="gem in store.product">
         <span> {{ gem.name }} </span> <span class="color-second"> ${{ gem.price }} </span> <p class="font-color"> {{ gem.description }} </p>
       </div>
@@ -33,11 +31,9 @@
   </div>
   
   <div class="main mainStyle">
-    
     <p class="header"> Center Controller Test </p>
     
     <div ng-controller="StoreController as store">
-      
       <div class="list color-primary" ng-repeat="book in store.books">
         <span> {{ book.title }} </span> <p class="font-color"> {{ book.author }}</p>
       </div>
