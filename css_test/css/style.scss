@@ -2,10 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 
 $border1: rgba(125, 175, 185, .95);
-$bg1 : #EAFEFE;
-$bg2 : #DAEAEE;
+$bg1 : #EAFAFA;
+$bg2 : #EAEAEE;
 $bg3 : #63A3A3;
-$navBlue : #9CB9E8;
+$navBlue : #ACD0EF;
+$darkBlue: #2FC9FF;
 $osans-font: "Open Sans", sans-serif;
 $fugaz-font: "Fugaz One", sans-serif;
 
@@ -85,7 +86,7 @@ h1 {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: blue;
+  color: $darkBlue;
 }
 
 .footer {
