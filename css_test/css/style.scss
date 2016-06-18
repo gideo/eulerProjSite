@@ -65,15 +65,11 @@ h1 {
   border-radius: 1em;
   background: $bg1;
   float: left;
-  box-shadow: 2px 2px 2px $border1;
-}
-
-.squareL {
-  box-shadow: 5px 5px 25px $bg2;
+  box-shadow: 1px 2px 2px $border1;
 }
 
 .imgSize1 {
-  border-radius: inherit;
+  border-radius: .5em;
   height: 100%;
   width: 100%;
 }
