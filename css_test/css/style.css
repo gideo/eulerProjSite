@@ -23,13 +23,12 @@ h1 {
 
 .mainBox {
   margin: auto;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   padding: .75em;
   background: #EAFAFA;
-  height: 100%;
   width: 80%;
   border: 2px solid rgba(125, 175, 185, 0.95);
-  border-radius: 1em;
+  border-radius: 1.5em;
 }
 
 .halo {
