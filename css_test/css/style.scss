@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 $border1: rgba(125, 175, 185, .95);
-$bg1: #EAFAFA;
+$bg1: #EAFACA;
 $bg2: #EAEAEE;
 $bg3: #63A3A3;
-$navBlue: #ACD0EF;
+$navBlue: #9CD1AF;
 $darkBlue: #2FC9FF;
 $osans-font: "Open Sans",
 sans-serif;
@@ -20,7 +20,7 @@ canvas {
 body {
   margin: 0;
   padding: auto;
-  background: url("https://www.dropbox.com/s/ktim356chh2xb8m/aJlw32J.jpg?dl=1");
+  background: url("https://www.dropbox.com/s/tbm1hrjqft1oi4m/Vertical%20Green%20Leafs%20Htc%20One%20M8%20wallpaper.jpg?dl=1");
   background-size: cover;
   font-size: .95em;
 }
@@ -48,8 +48,8 @@ h1 {
 }
 
 .title {
-  margin: 2em auto;
-  background: $bg2;
+  margin: 2em auto 1em;
+  background: $bg1;
   width: 55%;
   border: 1px solid $border1;
   border-radius: 3em 1em 3em;
