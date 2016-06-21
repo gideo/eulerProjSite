@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 $border1: rgba(125, 175, 185, .95);
-$bg1: #EAFACA;
+$bg1: #CAFACA;
 $bg2: #EAEAEE;
 $bg3: #63A3A3;
 $navBlue: #9CD1AF;
@@ -29,6 +29,53 @@ h1 {
   font-family: $fugaz-font;
   text-align: center;
   text-shadow: 2px 2px 1px #fff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+a:hover:not(.active) {
+  background-color: $bg1;
+}
+
+.imgSize1 {
+  border-radius: .5em;
+  height: 100%;
+  width: 100%;
+}
+
+.active {
+  background-color: $bg1;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: $navBlue;
+  text-align: center;
+}
+
+.paragraph {
+  padding: .25em;
+  text-indent: 12px;
+  font-family: $osans-font;
+}
+
+.paragraph::first-letter {
+  font-size: 1.5em;
+  color: $darkBlue;
 }
 
 .mainBox {
@@ -66,33 +113,6 @@ h1 {
   box-shadow: 1px 2px 2px $border1;
 }
 
-.imgSize1 {
-  border-radius: .5em;
-  height: 100%;
-  width: 100%;
-}
-
-.paragraph {
-  padding: .25em;
-  text-indent: 12px;
-  font-family: $osans-font;
-}
-
-.paragraph::first-letter {
-  font-size: 1.5em;
-  color: $darkBlue;
-}
-
-.footer {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: $navBlue;
-  text-align: center;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -104,24 +124,4 @@ ul {
   position: fixed;
   top: 0px;
   width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 12px 16px;
-  text-decoration: none;
-}
-
-a:hover:not(.active) {
-  background-color: $bg1;
-}
-
-.active {
-  background-color: $bg1;
 }
