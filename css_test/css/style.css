@@ -53,7 +53,7 @@ a:hover:not(.active) {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #9CD1AF;
+  background-color: #ACD1AF;
   text-align: center;
 }
 
@@ -65,7 +65,7 @@ a:hover:not(.active) {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: #2FC9FF;
+  color: #ACD1AF;
 }
 
 .mainBox {
@@ -76,12 +76,6 @@ a:hover:not(.active) {
   width: 80%;
   border: 2px solid rgba(125, 175, 185, 0.95);
   border-radius: 1.5em;
-}
-
-.halo {
-  -moz-box-shadow: 0 0 10px 5px #CAFACA;
-  -webkit-box-shadow: 0 0 10px 5px #CAFACA;
-  box-shadow: 0 0 10px 5px #CAFACA;
 }
 
 .title {
@@ -107,7 +101,7 @@ ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  background-color: #9CD1AF;
+  background-color: #ACD1AF;
 }
 
 .nav {

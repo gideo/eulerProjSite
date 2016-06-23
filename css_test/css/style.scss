@@ -4,7 +4,7 @@ $border1: rgba(125, 175, 185, .95);
 $bg1: #CAFACA;
 $bg2: #EAEAEE;
 $bg3: #63A3A3;
-$navBlue: #9CD1AF;
+$navBlue: #ACD1AF;
 $darkBlue: #2FC9FF;
 $osans-font: "Open Sans",
 sans-serif;
@@ -75,7 +75,7 @@ a:hover:not(.active) {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: $darkBlue;
+  color: $navBlue;
 }
 
 .mainBox {
@@ -86,12 +86,6 @@ a:hover:not(.active) {
   width: 80%;
   border: 2px solid $border1;
   border-radius: 1.5em;
-}
-
-.halo {
-  -moz-box-shadow: 0 0 10px 5px $bg1;
-  -webkit-box-shadow: 0 0 10px 5px $bg1;
-  box-shadow: 0 0 10px 5px $bg1;
 }
 
 .title {
