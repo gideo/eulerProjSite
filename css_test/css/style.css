@@ -1,18 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
-canvas {
-  margin: auto;
-  padding: 0;
-  background: #FFF;
-  overflow: hidden;
-}
-
 body {
   margin: 0;
   padding: auto;
   background: url("https://www.dropbox.com/s/tbm1hrjqft1oi4m/Vertical%20Green%20Leafs%20Htc%20One%20M8%20wallpaper.jpg?dl=1");
   background-size: cover;
   font-size: .95em;
+}
+
+a:hover:not(.active) {
+  background-color: #CAFACA;
+}
+
+canvas {
+  margin: auto;
+  padding: 0;
+  background: #FFF;
+  overflow: hidden;
 }
 
 h1 {
@@ -31,10 +35,6 @@ li a {
   text-align: center;
   padding: 12px 16px;
   text-decoration: none;
-}
-
-a:hover:not(.active) {
-  background-color: #CAFACA;
 }
 
 .imgSize1 {
