@@ -9,7 +9,7 @@ body {
 }
 
 a:hover:not(.active) {
-  background-color: #CAFACA;
+  background-color: #DCFACA;
 }
 
 canvas {
@@ -22,7 +22,7 @@ canvas {
 h1 {
   font-family: "Fugaz One", sans-serif;
   text-align: center;
-  text-shadow: 2px 2px 1px #fff;
+  text-shadow: 2px 3px 1px #DCFACA;
 }
 
 li {
@@ -37,6 +37,14 @@ li a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Fugaz One", sans-serif;
+  background-color: #ACD1AF;
+}
+
 .imgSize1 {
   border-radius: .5em;
   height: 100%;
@@ -44,7 +52,7 @@ li a {
 }
 
 .active {
-  background-color: #CAFACA;
+  background-color: #DCFACA;
 }
 
 .footer {
@@ -72,7 +80,7 @@ li a {
   margin: auto;
   margin-bottom: 2em;
   padding: .75em;
-  background: #CAFACA;
+  background: #DCFACA;
   width: 80%;
   border: 2px solid rgba(125, 175, 185, 0.95);
   border-radius: 1.5em;
@@ -80,9 +88,8 @@ li a {
 
 .title {
   margin: 2em auto 1em;
-  background: #CAFACA;
+  background: #9AD09E;
   width: 55%;
-  border: 1px solid rgba(125, 175, 185, 0.95);
   border-radius: 3em 1em 3em;
 }
 
@@ -92,16 +99,9 @@ li a {
   width: 300px;
   border: 2px solid rgba(125, 175, 185, 0.95);
   border-radius: 1em;
-  background: #CAFACA;
+  background: #DCFACA;
   float: left;
   box-shadow: 1px 2px 2px rgba(125, 175, 185, 0.95);
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  background-color: #ACD1AF;
 }
 
 .nav {
