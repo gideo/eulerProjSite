@@ -18,6 +18,7 @@ body {
 
 a:hover:not(.active) {
   background-color: $bg1;
+  text-transform: lowercase;
 }
 
 canvas {
@@ -53,14 +54,9 @@ ul {
   background-color: $navBlue;
 }
 
-.imgSize1 {
-  border-radius: .5em;
-  height: 100%;
-  width: 100%;
-}
-
 .active {
   background-color: $bg1;
+  font-size: 1em;
 }
 
 .footer {
@@ -71,6 +67,28 @@ ul {
   padding: 1rem;
   background-color: $navBlue;
   text-align: center;
+}
+
+.imgSize1 {
+  border-radius: .5em;
+  height: 100%;
+  width: 100%;
+}
+
+.mainBox {
+  margin: auto;
+  margin-bottom: 2em;
+  padding: .75em;
+  background: $bg1;
+  width: 80%;
+  border: 2px solid $border1;
+  border-radius: 1.5em;
+}
+
+.nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 .paragraph {
@@ -84,36 +102,20 @@ ul {
   color: $navBlue;
 }
 
-.mainBox {
-  margin: auto;
-  margin-bottom: 2em;
-  padding: .75em;
-  background: $bg1;
-  width: 80%;
-  border: 2px solid $border1;
-  border-radius: 1.5em;
-}
-
 .title {
   margin: 2em auto 1em;
-  background: $bg2;
   width: 55%;
+  background: $bg2;
   border-radius: 3em 1em 3em;
 }
 
 .square {
+  float: left;
   margin: .5em;
   height: 235px;
   width: 300px;
   border: 2px solid $border1;
   border-radius: 1em;
   background: $bg1;
-  float: left;
   box-shadow: 1px 2px 2px $border1;
-}
-
-.nav {
-  position: fixed;
-  top: 0px;
-  width: 100%;
 }
