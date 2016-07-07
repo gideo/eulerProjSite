@@ -60,6 +60,7 @@ ul {
   left: 0;
   padding: 1rem;
   background-color: #ACD1AF;
+  border-top: 3px solid #DCFACA;
   text-align: center;
 }
 
@@ -75,7 +76,7 @@ ul {
   padding: .75em;
   background: #DCFACA;
   width: 80%;
-  border: 4px solid rgba(125, 175, 185, 0.95);
+  border: 4px solid black;
   border-radius: 1.5em;
 }
 
@@ -93,7 +94,7 @@ ul {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: #ACD1AF;
+  color: #2FC9FF;
 }
 
 .square {
