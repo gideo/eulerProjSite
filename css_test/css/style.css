@@ -76,7 +76,7 @@ ul {
   padding: .75em;
   background: #DCFACA;
   width: 80%;
-  border: 4px solid black;
+  border: 4px solid #516341;
   border-radius: 1.5em;
 }
 
@@ -94,7 +94,7 @@ ul {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: #2FC9FF;
+  color: #516341;
 }
 
 .square {
@@ -112,6 +112,6 @@ ul {
   margin: 2.5em auto 1em;
   width: 55%;
   background: #9AD09E;
-  border: 4px solid rgba(125, 175, 185, 0.95);
+  border: 4px solid #516341;
   border-radius: 3em 1em 3em;
 }
