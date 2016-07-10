@@ -63,6 +63,7 @@ ul {
 
 .active2 {
   background-color: $bg2;
+  border-radius: .66em;
 }
 
 .footer {
@@ -86,9 +87,9 @@ ul {
   margin: auto;
   margin-bottom: 2em;
   padding: .75em;
-  background: $bg1;
+  background: $navBg;
   width: 80%;
-  border: 4px solid $darkBg;
+  border: 4px solid $bg1;
   border-radius: 1.5em;
 }
 
@@ -124,7 +125,7 @@ ul {
   margin: 2.5em auto 1em;
   width: 55%;
   background: $bg2;
-  border: 4px solid $darkBg;
+  border: 4px solid $bg1;
   border-radius: 3em 1em 3em;
 }
 
