@@ -7,9 +7,9 @@ $(document).ready(function() {
     $(this).removeClass("squareL");
   })
   
-  $(".paragraph").on("mouseover", function() {
-    $(this).addClass("active2");
-  }).on("mouseleave", function() {
-    $(this).removeClass("active2");
+  // $(".paragraph").on("mouseover", function() {
+  //   $(this).addClass("active2");
+  // }).on("mouseleave", function() {
+  //   $(this).removeClass("active2");
   });
 })
