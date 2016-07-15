@@ -9,9 +9,4 @@ $(document).ready(function() {
   $("*").click(function() {
     console.log(this);
   })
-  // $(".paragraph").on("mouseover", function() {
-  //   $(this).addClass("active2");
-  // }).on("mouseleave", function() {
-  //   $(this).removeClass("active2");
-  // });
 })
