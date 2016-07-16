@@ -26,6 +26,16 @@ h1 {
   text-shadow: 2px 3px 1px #DCFACA;
 }
 
+h2 {
+  margin: .5em 0em;
+  font-family: "Fugaz One", sans-serif;
+  text-align: center;
+  text-shadow: 1px 2px 1px #9AD09E;
+  background: #DCFACA;
+  border: 3px solid #516341;
+  border-radius: .66em;
+}
+
 li {
   float: left;
 }

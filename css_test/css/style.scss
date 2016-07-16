@@ -34,6 +34,16 @@ h1 {
   text-shadow: 2px 3px 1px $bg1;
 }
 
+h2 {
+  margin: .5em 0em;
+  font-family: $fugaz-font;
+  text-align: center;
+  text-shadow: 1px 2px 1px $bg2;
+  background: $bg1;
+  border: 3px solid $darkBg;
+  border-radius: .66em;
+}
+
 li {
   float: left;
 }
