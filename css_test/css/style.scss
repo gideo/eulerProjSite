@@ -35,12 +35,12 @@ h1 {
 }
 
 h2 {
-  margin: .5em 0em;
+  margin: .2em 0em;
   font-family: $fugaz-font;
   text-align: center;
   text-shadow: 1px 2px 1px $bg2;
-  background: $bg1;
-  border: 3px solid $darkBg;
+  background: $bg2;
+  border: 3px solid $bg1;
   border-radius: .66em;
 }
 
@@ -117,7 +117,7 @@ ul {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: $darkBg;
+  color: $bg1;
 }
 
 .square {
@@ -138,4 +138,3 @@ ul {
   border: 4px solid $bg1;
   border-radius: 3em 1em 3em;
 }
-
