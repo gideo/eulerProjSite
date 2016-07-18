@@ -5,9 +5,10 @@ $bg1: #DCFACA;
 $bg2: #9AD09E;
 $navBg: #ACD1AF;
 $darkBg: #516341;
-$osans-font: "Open Sans", sans-serif;
-$fugaz-font: "Fugaz One", sans-serif;
-
+$osans-font: "Open Sans",
+sans-serif;
+$fugaz-font: "Fugaz One",
+sans-serif;
 body {
   margin: 0;
   padding: auto;
@@ -35,7 +36,8 @@ h1 {
 }
 
 h2 {
-  margin: .2em 0em;
+  margin: 0em .25em .5em .25em;
+  padding: .25em;
   font-family: $fugaz-font;
   text-align: center;
   text-shadow: 1px 2px 1px $bg2;
