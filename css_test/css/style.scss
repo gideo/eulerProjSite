@@ -97,7 +97,7 @@ ul {
   width: 100%;
 }
 
-.mainBox {
+.paraBox {
   margin: auto;
   margin-bottom: 2em;
   padding: .75em;
@@ -105,12 +105,6 @@ ul {
   width: 80%;
   border: 4px solid $bg1;
   border-radius: 1.5em;
-}
-
-.nav {
-  position: fixed;
-  top: 0px;
-  width: 100%;
 }
 
 .paragraph {
@@ -136,6 +130,11 @@ ul {
 }
 
 //id
+#nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 
 #title {
   margin: 2.5em auto 1em;
