@@ -6,7 +6,7 @@ $(document).ready(function() {
   }).on("mouseleave", function() {
     $(this).removeClass("squareL");
   });
-  // $("*").click(function() {
-  //   console.log(this);
-  // });
+  $("*").click(function() {
+    console.log(this);
+  });
 })
