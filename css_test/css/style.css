@@ -49,6 +49,11 @@ li a {
   text-decoration: none;
 }
 
+p {
+  text-align: left;
+  padding: .25em !important;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
