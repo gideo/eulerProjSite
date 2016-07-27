@@ -13,13 +13,6 @@ a:hover:not(.active) {
   text-transform: lowercase;
 }
 
-canvas {
-  margin: auto;
-  padding: 0;
-  background: #FFF;
-  overflow: hidden;
-}
-
 h1 {
   font-family: "Fugaz One", sans-serif;
   text-align: center;

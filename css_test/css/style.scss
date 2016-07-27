@@ -22,13 +22,6 @@ a:hover:not(.active) {
   text-transform: lowercase;
 }
 
-canvas {
-  margin: auto;
-  padding: 0;
-  background: #FFF;
-  overflow: hidden;
-}
-
 h1 {
   font-family: $fugaz-font;
   text-align: center;
@@ -146,5 +139,6 @@ ul {
   width: 65%;
   background: $bg2;
   border: 3px solid $bg1;
+  //border-radius: 3em 1em 3em;
   border-radius: .66em;
 }
