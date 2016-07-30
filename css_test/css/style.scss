@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 $border1: rgba(125, 175, 185, .95);
-$bg1: #056608;
-$bg2: #8FBC8F;
-$navBg: #A3C1AD;
+$bg1: #F0F8FF;
+$bg2: #EFDECD;
+$navBg: #F2F0E6;
 $darkBg: #516341;
 $osans-font: "Open Sans",
 sans-serif;
@@ -113,7 +113,7 @@ ul {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: $bg1;
+  color: $darkBg;
 }
 
 .square {
