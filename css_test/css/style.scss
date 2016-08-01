@@ -12,7 +12,10 @@ sans-serif;
 body {
   margin: 0;
   padding: auto;
-  background: url("https://www.dropbox.com/s/j78jm50ogu6d3gn/photo-1462524500090-89443873e2b4.jpg?dl=1");
+  background: #eddb8b;
+  background: -moz-linear-gradient(top, #eddb8b 0%, #ede097 53%, #b7b56c 100%);
+  background: -webkit-linear-gradient(top, #eddb8b 0%,#ede097 53%,#b7b56c 100%);
+  background: linear-gradient(to bottom, #eddb8b 0%,#ede097 53%,#b7b56c 100%);
   background-size: auto 100%;
   font-size: .95em;
 }
