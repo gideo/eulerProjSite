@@ -119,6 +119,10 @@ ul {
   box-shadow: 2px 2px 7px #B27B49;
 }
 
+.titleL {
+  border: 3px solid #516341 !important;
+}
+
 #nav {
   position: fixed;
   top: 0px;

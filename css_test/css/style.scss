@@ -130,6 +130,10 @@ ul {
   box-shadow: 2px 2px 7px $border1;
 }
 
+.titleL {
+  border: 3px solid $darkBg !important;
+}
+
 //id
 #nav {
   position: fixed;
