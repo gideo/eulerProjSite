@@ -71,14 +71,18 @@ ul {
 
 // classes
 
-.active {
-  background-color: $bg1;
-  font-size: 1em;
-}
+// .active {
+//   background-color: $bg1;
+//   font-size: 1em;
+// }
 
-.active2 {
-  background-color: $bg2;
-  border-radius: .66em;
+// .active2 {
+//   background-color: $bg2;
+//   border-radius: .66em;
+// }
+
+.borderL {
+  border: 3px solid $darkBg !important;
 }
 
 .footer {
@@ -128,10 +132,6 @@ ul {
   border-radius: 1em;
   background: $bg1;
   box-shadow: 2px 2px 7px $border1;
-}
-
-.titleL {
-  border: 3px solid $darkBg !important;
 }
 
 //id

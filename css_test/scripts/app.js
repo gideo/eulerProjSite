@@ -1,8 +1,8 @@
 'use strict';
 $(document).ready(function() {
   $("#title, .paraBox").on("mouseover", function() {
-    $(this).addClass("titleL");
+    $(this).addClass("borderL");
   }).on("mouseleave", function() {
-    $(this).removeClass("titleL");
+    $(this).removeClass("borderL");
   });
 })
