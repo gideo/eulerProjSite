@@ -13,7 +13,6 @@ body {
 
 a:hover:not(.active) {
   background-color: #F0F8FF;
-  text-transform: lowercase;
 }
 
 h1 {
