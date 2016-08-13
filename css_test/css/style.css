@@ -59,6 +59,10 @@ ul {
   background-color: #F2F0E6;
 }
 
+.borderF {
+  border-top: 3px solid #B27B49 !important;
+}
+
 .borderM {
   border: 3px solid #B27B49 !important;
 }

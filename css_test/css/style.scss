@@ -79,6 +79,10 @@ ul {
 //   background-color: $bg2;
 //   border-radius: .66em;
 // }
+.borderF {
+  border-top: 3px solid $border1 !important;
+}
+
 .borderM {
   border: 3px solid $border1 !important;
 }
