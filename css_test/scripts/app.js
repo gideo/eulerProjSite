@@ -17,4 +17,10 @@ $(document).ready(function() {
   }).on("mouseleave", function() {
     $(this).removeClass("borderF");
   });
-})
+  
+  $("#nav").on("mouseover", function() {
+    $(this).addClass("borderT");
+  }).on("mouseleave", function() {
+    $(this).removeClass("borderT");
+  });
+});

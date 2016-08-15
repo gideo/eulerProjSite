@@ -71,6 +71,10 @@ ul {
   border: 4px solid #B27B49 !important;
 }
 
+.borderT {
+  border-bottom: 3px solid #B27B49 !important;
+}
+
 .footer {
   position: relative;
   right: 0;
