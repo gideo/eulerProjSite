@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 $border1: #B27B49;
+$border2: #CA8C5A;
 $bg1: #F0F8FF;
 $bg2: #EFDECD;
 $navBg: #F2F0E6;
@@ -69,7 +70,7 @@ ul {
 }
 
 .borderF {
-  border-top: 3px solid $border1 !important;
+  border-top: 3px solid $border2 !important;
 }
 
 .borderM {
@@ -81,7 +82,7 @@ ul {
 }
 
 .borderT {
-  border-bottom: 3px solid $border1 !important;
+  border-bottom: 3px solid $border2 !important;
 }
 
 .footer {
