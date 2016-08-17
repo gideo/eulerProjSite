@@ -6,12 +6,6 @@ $(document).ready(function() {
     $(this).removeClass("borderM");
   });
   
-  $(".paraBox").on("mouseover", function() {
-    $(this).addClass("borderL");
-  }).on("mouseleave", function() {
-    $(this).removeClass("borderL");
-  });
-  
   $(".footer").on("mouseover", function() {
     $(this).addClass("borderF");
   }).on("mouseleave", function() {
