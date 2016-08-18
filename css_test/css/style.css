@@ -67,10 +67,6 @@ ul {
   border: 3px solid #B27B49 !important;
 }
 
-.borderL {
-  border: 4px solid #B27B49 !important;
-}
-
 .borderT {
   border-bottom: 3px solid #CA8C5A !important;
 }
@@ -98,7 +94,7 @@ ul {
   padding: .75em;
   background: #F2F0E6;
   width: 80%;
-  border: 4px solid #F0F8FF;
+  border: 3px solid #F0F8FF;
   border-radius: 1.5em;
 }
 

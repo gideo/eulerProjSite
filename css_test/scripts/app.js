@@ -1,6 +1,6 @@
 'use strict';
 $(document).ready(function() {
-  $("#title").on("mouseover", function() {
+  $("#title, .paraBox").on("mouseover", function() {
     $(this).addClass("borderM");
   }).on("mouseleave", function() {
     $(this).removeClass("borderM");
