@@ -6,15 +6,9 @@ $(document).ready(function() {
     $(this).removeClass("borderM");
   });
   
-  $(".footer").on("mouseover", function() {
-    $(this).addClass("borderF");
+  $(".footer, #nav").on("mouseover", function() {
+    $(this).addClass("borderB");
   }).on("mouseleave", function() {
-    $(this).removeClass("borderF");
-  });
-  
-  $("#nav").on("mouseover", function() {
-    $(this).addClass("borderT");
-  }).on("mouseleave", function() {
-    $(this).removeClass("borderT");
+    $(this).removeClass("borderB");
   });
 });

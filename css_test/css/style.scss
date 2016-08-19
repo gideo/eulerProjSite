@@ -69,15 +69,16 @@ ul {
   background-color: $navBg;
 }
 
-.borderF {
-  border-top: 3px solid $border2 !important;
-}
+// .borderF {
+//   border-top: 3px solid $border2 !important;
+// }
 
 .borderM {
   border: 3px solid $border1 !important;
 }
 
-.borderT {
+.borderB {
+  border-top: 3px solid $border2 !important;
   border-bottom: 3px solid $border2 !important;
 }
 
