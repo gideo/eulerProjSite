@@ -3,7 +3,7 @@
 $border1: #B27B49;
 $border2: #CA8C5A;
 $bg1: #F0F8FF;
-$bg2: #EFDECD;
+$bg2: #FF8EAD;
 $navBg: #F2F0E6;
 $darkBg: #516341;
 $osans-font: "Open Sans",
@@ -33,11 +33,11 @@ h1 {
 h2 {
   margin: 0em .25em .5em .25em;
   padding: .25em;
-  font-family: $fugaz-font;
+  font-family: $osans-font;
   text-align: center;
   text-shadow: 1px 2px 1px $bg2;
   background: $bg2;
-  text-decoration: underline;
+  // text-decoration: underline;
   border-radius: .66em;
 }
 
