@@ -63,23 +63,19 @@ ul {
   margin: 0;
   margin-top: .2em;
   overflow: hidden;
-  border-top: 4px solid $bg1;
-  border-bottom: 4px solid $bg1;
+  border-top: 3px solid $bg1;
+  border-bottom: 3px solid $bg1;
   font-family: $fugaz-font;
   background-color: $navBg;
 }
-
-// .borderF {
-//   border-top: 3px solid $border2 !important;
-// }
 
 .borderM {
   border: 3px solid $border1 !important;
 }
 
 .borderB {
-  border-top: 3px solid $border2 !important;
-  border-bottom: 3px solid $border2 !important;
+  border-top: 3px solid $border1 !important;
+  border-bottom: 3px solid $border1 !important;
 }
 
 .footer {

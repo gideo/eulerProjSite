@@ -53,8 +53,8 @@ ul {
   margin: 0;
   margin-top: .2em;
   overflow: hidden;
-  border-top: 4px solid #F0F8FF;
-  border-bottom: 4px solid #F0F8FF;
+  border-top: 3px solid #F0F8FF;
+  border-bottom: 3px solid #F0F8FF;
   font-family: "Fugaz One", sans-serif;
   background-color: #F2F0E6;
 }
@@ -64,8 +64,8 @@ ul {
 }
 
 .borderB {
-  border-top: 3px solid #CA8C5A !important;
-  border-bottom: 3px solid #CA8C5A !important;
+  border-top: 3px solid #B27B49 !important;
+  border-bottom: 3px solid #B27B49 !important;
 }
 
 .footer {
