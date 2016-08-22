@@ -1,62 +1,139 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Fugaz+One);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-$border1: rgba(120, 175, 185, .95);
-$bg1 : #EAFEFE;
-$osans-font: "Open Sans", sans-serif;
-$fugaz-font: "Fugaz One", sans-serif;
+$primary-color: #DF7A0A;
+$second-color: #E8A50F;
+$third-color: #E8580C;
+$font-color: #DEDECF;
+$shadow-color: #222222;
+$primary-font: 'Raleway', sans-serif;
+$second-font: 'Montserrat', san-serif;
+$bg-color: rgba(185, 125, 125, .35);
 
 body {
+  position: relative;
+  padding-bottom: 6rem;
   margin: 0;
-  padding: auto;
-  
-  background: url("https://www.dropbox.com/s/bxrx0k0zbmqfr5l/basil-herbs-green-mediterranean-40720.jpeg?dl=1");
+  padding: 0;
+  background-color: black;
+  background-image: url('https://www.dropbox.com/s/of9vajj6x724km8/dusty-sky.png?dl=1');
   background-size: cover;
-  font-size: .95em;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 1.6em;
 }
 
 h1 {
-  font-family: $fugaz-font;
-  text-align: center;
-  text-shadow: 2px 2px 1px #fff;
-}
-
-.paragraph::first-letter {
-  font-size: 150%;
-  color: blue;
-}
-
-.mainBox {
   margin: auto;
-  margin-bottom: 4em;
+  text-align: center;
+  font-size: 3em;
+  font-family: $primary-font;
+}
+
+.font-fancy {
+  color: $primary-color;
+  text-decoration: underline;
+  -moz-text-decoration-color: $primary-color;
+  text-decoration-color: $primary-color;
+}
+
+.header {
+  cursor: default;
+  font-family: $second-font;
+  text-align: center;
+  border: 2px solid $third-color;
+}
+
+.main {
+  margin: auto;
+  margin-top: 1em;
+  width: 30%;
+}
+
+.mainStyle {
+  color: $font-color;
+  background-color: rgba($primary-color, .15);
+  
   padding: .75em;
-  background: $bg1;
-  height: 100%;
-  width: 80%;
-  border: 2px solid $border1;
+  border: 2px solid $primary-color;
   border-radius: 1em;
 }
 
-.square {
-  margin: 1em;
-  height: 200px;
-  width: 300px;
-  border: 2px solid $border1;
+.otherStyle {
+  color: $font-color;
+  background-color: rgba($third-color, .2);
+  
+  padding: .75em;
+  border: 2px solid $third-color;
   border-radius: 1em;
-  background: $bg1;
+}
+
+.list {
+  margin-top: .25em;
+  padding: .25em;
+  border: 1px dotted $third-color;
+  text-shadow: 3px 2px 1px $shadow-color;
+}
+
+.product {
+  margin: 1em 0em;
+  padding: .25em;
+  border: 2px solid $second-color;
+  text-shadow: 3px 2px 1px $shadow-color;
+}
+
+.color-primary {
+  color: $primary-color;
+}
+
+.color-second {
+  color: $second-color;
+}
+
+.font-color {
+  color: $font-color;
+}
+
+.highlight {
+  color: $second-color !important;
+  background-color: $bg-color;
+}
+
+.mouseover {
+  color: $second-color;
+  background-color: $bg-color; 
+}
+
+.obj-title {
+  font-size: 1em;
+  text-decoration: underline;
+  color: $font-color;
+}
+
+.leftBox {
   float: left;
+  margin: 0em 1em;
+  margin-top: 18px;
+  width: 27.5%;
 }
 
-.vertical {
-  height: 250px !important;
+.rightBox {
+  float: right;
+  margin: 0em 1em;
+  margin-top: 18px;
+  width: 27.5%;
 }
 
-.imgSize1 {
-  border-radius: inherit;
-  height: 100%;
-  width: 100%;
+.space {
+  height: 100px;
 }
 
-.paragraph {
-  font-family: $osans-font;
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: $primary-color;
+  text-align: center;
 }
