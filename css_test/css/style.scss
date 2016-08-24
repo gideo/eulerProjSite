@@ -127,6 +127,12 @@ ul {
   box-shadow: 2px 2px 7px $border1;
 }
 
+.fullImg {
+  height: 300px;
+  width: 40%;
+  border: 3px solid $border1;
+}
+
 //id
 #nav {
   position: fixed;

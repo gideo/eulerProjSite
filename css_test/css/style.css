@@ -116,6 +116,12 @@ ul {
   box-shadow: 2px 2px 7px #B27B49;
 }
 
+.fullImg {
+  height: 300px;
+  width: 40%;
+  border: 3px solid #B27B49;
+}
+
 #nav {
   position: fixed;
   top: 0px;
