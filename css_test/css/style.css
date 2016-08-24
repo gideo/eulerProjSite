@@ -106,7 +106,7 @@ ul {
 }
 
 .squareImg {
-  float: left;
+  float: right;
   margin: .6em;
   height: 235px;
   width: 300px;
@@ -114,12 +114,6 @@ ul {
   border-radius: 1em;
   background: #F0F8FF;
   box-shadow: 2px 2px 7px #B27B49;
-}
-
-.fullImg {
-  height: 300px;
-  width: 40%;
-  border: 3px solid #B27B49;
 }
 
 #nav {
