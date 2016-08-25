@@ -116,6 +116,10 @@ ul {
   box-shadow: 2px 2px 7px #B27B49;
 }
 
+.test {
+  border: 4px dashed #516341;
+}
+
 #nav {
   position: fixed;
   top: 0px;

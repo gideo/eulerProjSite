@@ -127,6 +127,10 @@ ul {
   box-shadow: 2px 2px 7px $border1;
 }
 
+.test {
+  border: 4px dashed $darkBg;
+}
+
 //id
 #nav {
   position: fixed;
