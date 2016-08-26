@@ -15,6 +15,10 @@ $(document).ready(function() {
 });
 
 let testFunction = function(str) {
-  let d = document.getElementById(str);
+  document.getElementById(str).className += " test";
   alert(d);
+}
+
+let testRemove = function(str) {
+  document.getElementById(str).className = document.getElementById(str).className.replace(/\btest\b/,'');
 }
