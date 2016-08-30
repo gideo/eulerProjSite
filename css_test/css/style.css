@@ -25,8 +25,8 @@ h2 {
   padding: .25em;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  text-shadow: 1px 2px 1px #FF8EAD;
-  background: #FF8EAD;
+  text-shadow: 1px 2px 1px #3F8EAD;
+  background: #3F8EAD;
   border-radius: .66em;
 }
 
@@ -59,12 +59,12 @@ ul {
 }
 
 .borderM {
-  border: 3px solid #B27B49 !important;
+  border: 3px solid #A2CBA9 !important;
 }
 
 .borderB {
-  border-top: 3px solid #B27B49 !important;
-  border-bottom: 3px solid #B27B49 !important;
+  border-top: 3px solid #A2CBA9 !important;
+  border-bottom: 3px solid #A2CBA9 !important;
 }
 
 .footer {
@@ -102,7 +102,7 @@ ul {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: #516341;
+  color: #A16341;
 }
 
 .squareImg {
@@ -110,14 +110,14 @@ ul {
   margin: .6em;
   height: 235px;
   width: 300px;
-  border: 3px solid #B27B49;
+  border: 3px solid #A2CBA9;
   border-radius: 1em;
   background: #F0F8FF;
-  box-shadow: 2px 2px 7px #B27B49;
+  box-shadow: 2px 2px 7px #A2CBA9;
 }
 
 .test {
-  border: 3px dashed #516341;
+  border: 3px dashed #A16341;
 }
 
 #nav {
@@ -129,7 +129,7 @@ ul {
 #title {
   margin: 2.5em auto 1em;
   width: 65%;
-  background: #FF8EAD;
+  background: #3F8EAD;
   border: 3px solid #F0F8FF;
   border-radius: .66em;
 }
