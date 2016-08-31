@@ -37,7 +37,6 @@ h2 {
   text-align: center;
   text-shadow: 1px 2px 1px $bg2;
   background: $bg2;
-  // text-decoration: underline;
   border-radius: .66em;
 }
 
@@ -117,7 +116,6 @@ ul {
 }
 
 .squareImg {
-  float: right;
   margin: .6em;
   height: 235px;
   width: 300px;
@@ -127,8 +125,15 @@ ul {
   box-shadow: 2px 2px 7px $border1;
 }
 
+.floatL {
+  float:left;
+}
+.floatR {
+  float:right;
+}
+
 .test {
-  border: 3px dashed $darkBg;
+  border: 2px dashed $darkBg;
 }
 
 //id

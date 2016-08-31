@@ -106,7 +106,6 @@ ul {
 }
 
 .squareImg {
-  float: right;
   margin: .6em;
   height: 235px;
   width: 300px;
@@ -116,8 +115,16 @@ ul {
   box-shadow: 2px 2px 7px #A2CBA9;
 }
 
+.floatL {
+  float: left;
+}
+
+.floatR {
+  float: right;
+}
+
 .test {
-  border: 3px dashed #A16341;
+  border: 2px dashed #A16341;
 }
 
 #nav {
