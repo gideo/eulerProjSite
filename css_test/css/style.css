@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 body {
   margin: 0;
   padding: auto;
@@ -16,14 +17,14 @@ a:hover:not(.active) {
 }
 
 h1 {
-  font-family: "Fugaz One", sans-serif;
+  font-family: "Lobster", sans-serfi;
   text-align: center;
 }
 
 h2 {
   margin: 0em .25em .5em .25em;
   padding: .25em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster", sans-serfi;
   text-align: center;
   text-shadow: 1px 2px 1px #3F8EAD;
   background: #3F8EAD;
@@ -55,7 +56,7 @@ ul {
   border-top: 3px solid #F0F8FF;
   border-bottom: 3px solid #F0F8FF;
   font-family: "Fugaz One", sans-serif;
-  background-color: #F2F0E6;
+  background-color: #F2F0F6;
 }
 
 .borderM {
@@ -73,7 +74,7 @@ ul {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #F2F0E6;
+  background-color: #F2F0F6;
   border-top: 3px solid #F0F8FF;
   text-align: center;
 }
@@ -88,7 +89,7 @@ ul {
   margin: auto;
   margin-bottom: 2em;
   padding: .75em;
-  background: #F2F0E6;
+  background: #F2F0F6;
   width: 80%;
   border: 3px solid #F0F8FF;
   border-radius: 1.5em;
