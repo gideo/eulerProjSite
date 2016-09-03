@@ -4,10 +4,10 @@
 body {
   margin: 0;
   padding: auto;
-  background: #eddb8b;
-  background: -moz-linear-gradient(top, #eddb8b 0%, #ede097 53%, #b7b56c 100%);
-  background: -webkit-linear-gradient(top, #eddb8b 0%, #ede097 53%, #b7b56c 100%);
-  background: linear-gradient(to bottom, #eddb8b 0%, #ede097 53%, #b7b56c 100%);
+  background: #b3dced;
+  background: -moz-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
+  background: -webkit-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
+  background: linear-gradient(to bottom, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
   background-size: auto 100%;
   font-size: .95em;
 }
@@ -26,8 +26,8 @@ h2 {
   padding: .25em;
   font-family: "Lobster", sans-serfi;
   text-align: center;
-  text-shadow: 1px 2px 1px #3F8EAD;
-  background: #3F8EAD;
+  text-shadow: 1px 2px 1px #FF8EAD;
+  background: #FF8EAD;
   border-radius: .66em;
 }
 
@@ -60,12 +60,12 @@ ul {
 }
 
 .borderM {
-  border: 3px solid #A2CBA9 !important;
+  border: 3px solid #92CFF9 !important;
 }
 
 .borderB {
-  border-top: 3px solid #A2CBA9 !important;
-  border-bottom: 3px solid #A2CBA9 !important;
+  border-top: 3px solid #92CFF9 !important;
+  border-bottom: 3px solid #92CFF9 !important;
 }
 
 .footer {
@@ -112,7 +112,7 @@ ul {
   width: 300px;
   border-radius: 1em;
   background: #F0F8FF;
-  box-shadow: 2px 2px 7px #A2CBA9;
+  box-shadow: 2px 2px 7px #92CFF9;
 }
 
 .floatL {
@@ -136,7 +136,7 @@ ul {
 #title {
   margin: 2.5em auto 1em;
   width: 65%;
-  background: #3F8EAD;
+  background: #FF8EAD;
   border: 3px solid #F0F8FF;
   border-radius: .66em;
 }
