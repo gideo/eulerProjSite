@@ -26,8 +26,8 @@ h2 {
   padding: .25em;
   font-family: "Lobster", sans-serfi;
   text-align: center;
-  text-shadow: 1px 2px 1px #FF8EAD;
-  background: #FF8EAD;
+  text-shadow: 1px 2px 1px #6FAEFD;
+  background: #6FAEFD;
   border-radius: .66em;
 }
 
@@ -136,7 +136,7 @@ ul {
 #title {
   margin: 2.5em auto 1em;
   width: 65%;
-  background: #FF8EAD;
+  background: #6FAEFD;
   border: 3px solid #F0F8FF;
   border-radius: .66em;
 }
