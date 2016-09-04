@@ -1,4 +1,14 @@
 'use strict';
+
+let testFunction = function(str) {
+  document.getElementById(str).className += " test";
+  alert(d);
+}
+
+let testRemove = function(str) {
+  document.getElementById(str).className = document.getElementById(str).className.replace(/\btest\b/,'');
+}
+
 $(document).ready(function() {
   
   $("#title, .paraBox").on("mouseover", function() {
@@ -13,12 +23,3 @@ $(document).ready(function() {
     $(this).removeClass("borderB");
   });
 });
-
-let testFunction = function(str) {
-  document.getElementById(str).className += " test";
-  alert(d);
-}
-
-let testRemove = function(str) {
-  document.getElementById(str).className = document.getElementById(str).className.replace(/\btest\b/,'');
-}

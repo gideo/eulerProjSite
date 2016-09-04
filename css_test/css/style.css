@@ -103,7 +103,7 @@ ul {
 
 .paragraph::first-letter {
   font-size: 1.5em;
-  color: #A16341;
+  color: #5F73FF;
 }
 
 .squareImg {
@@ -124,7 +124,7 @@ ul {
 }
 
 .test {
-  border: 2px dashed #A16341;
+  border: 2px dashed #5F73FF;
 }
 
 #nav {
