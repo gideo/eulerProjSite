@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
+
 $border1: #92CFF9;
 $border2: #CA8C5A;
 $bg1: #F0F8FF;
@@ -33,12 +34,12 @@ h1 {
 
 h2 {
   margin: 0em .25em .5em .25em;
-  padding: .25em;
+  padding: .35em;
   font-family: $l-font;
   text-align: center;
   text-shadow: 1px 2px 1px $bg2;
   background: $bg2;
-  border-radius: .66em;
+  border-radius: .75em;
 }
 
 li {
