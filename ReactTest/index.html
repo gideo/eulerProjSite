@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv='Content-type' content='text/html' charset="utf-8">
+		<title>Basic Example</title>
+	</head>
+
+	<body>
+		<div id="container"></div>	
+		<h1>TEST</h1>
+
+		<script type="text/javascript" src="react.js"></script>
+		<script type="text/javascript" src="JSXTransformer.js"></script>
+		
+		<script type="text/jsx">
+			/** @jsx REACT.DOM */
+			var Hello = React.createClass({
+				render : function() {
+					return <div>
+							<h1>Hello at {this.props.now}</h1>
+							</div>;
+				}
+			});
+
+			React.renderComponent(<Hello now={new Date().toString()} />, document.getElementById('container'));
+		</script>		
+
+		<!-- <script type="text/javascript">
+			document.getElementById('container').innerHTML = "<h1> W/E </h1>"
+		</script> -->
+	</body>
+</html>
