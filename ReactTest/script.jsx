@@ -38,7 +38,7 @@ var Main = React.createClass({
     this.setState({ counter: this.state.counter+increment });
   },
   multClick: function(increment) {
-      this.setState( { counter: this.state.counter*increment });
+    this.setState( { counter: this.state.counter*increment });
   },
   render: function() {
     return (
@@ -56,5 +56,19 @@ var Main = React.createClass({
   }
 })
 
+var Test = React.createClass({
+    getIntialState: function(){
+        return {counter: 0};
+    },
+    render: function() {
+        return (
+            <div>
+                <Button localHandleClick={this.handleClick} />
+            </div>
+        )
+    }
+})
+
 React.render(<Main />, document.getElementById("root"));
+React.render(<Test />, document.getElementById("test"));
 
