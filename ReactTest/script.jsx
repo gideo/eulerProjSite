@@ -56,19 +56,4 @@ var Main = React.createClass({
   }
 })
 
-var Test = React.createClass({
-    getIntialState: function(){
-        return {counter: 0};
-    },
-    render: function() {
-        return (
-            <div>
-                <Button localHandleClick={this.handleClick} />
-            </div>
-        )
-    }
-})
-
 React.render(<Main />, document.getElementById("root"));
-React.render(<Test />, document.getElementById("test"));
-
