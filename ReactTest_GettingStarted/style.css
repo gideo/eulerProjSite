@@ -1,0 +1,18 @@
+/* Styles go here */
+
+body {
+    background: white;
+}
+
+h3 {
+    background: lightblue;
+}
+
+.userX {
+    margin: auto;
+    padding: 1em;
+    font-size: 1.2em;
+    background: pink;
+    border: 1px solid red;
+    border-radius: 2em;
+}
