@@ -27,6 +27,8 @@ var Main = React.createClass({
             <div>
                 <Card login="petehunt" />
                 <Card login="spicyj" />
+                <Card login="gideo" />
+                <Card login="freecodecamp" />
             </div>
         )
     }
