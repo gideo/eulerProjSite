@@ -12,10 +12,12 @@ var Card = React.createClass({
     },
     render: function() {
         return (
-            <div> 
-                <img src={this.state.avatar_url} width="80" />
-                <h3>{this.state.name} + {this.state.email}</h3>
-                <hr/>
+            <div className="box">
+                <div className="userX"> 
+                    <img src={this.state.avatar_url} width="80" />
+                    <h3 className="fRight">{this.state.name}</h3>
+                    <h3>{this.state.email}</h3>
+                </div>
             </div>
         )
     }

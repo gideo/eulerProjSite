@@ -5,14 +5,28 @@ body {
 }
 
 h3 {
-    background: lightblue;
+    background: #F2F0E6;
+}
+
+.fRight {
+    float:right;
+}
+
+img {
+    border-radius: 1em;
+    border: 2px solid black;
+}
+
+.box {
+    margin: auto;
+    padding: 1em;
 }
 
 .userX {
     margin: auto;
-    padding: 1em;
+    padding: .5em;
     font-size: 1.2em;
-    background: pink;
-    border: 1px solid red;
-    border-radius: 2em;
+    background: #F0F8FF;
+    border: 2px solid black;
+    border-radius: 1em;
 }
