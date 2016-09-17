@@ -1,5 +1,3 @@
-// Code goes here
-
 var Card = React.createClass({
     getInitialState: function() {
         return {};  
@@ -29,8 +27,8 @@ var Main = React.createClass({
             <div>
                 <Card login="petehunt" />
                 <Card login="spicyj" />
-                <Card login="gideo" />
-                <Card login="freecodecamp" />
+                <Card login="klkelley" />
+                <Card login="KevinMulhern" />
             </div>
         )
     }

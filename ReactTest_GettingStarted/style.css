@@ -1,11 +1,13 @@
-/* Styles go here */
-
 body {
+    font-size: .75em;
     background: white;
 }
 
 h3 {
+    padding: .25em;
     background: #F2F0E6;
+    border: 2px solid black;
+    border-radius: .5em;
 }
 
 .fRight {
