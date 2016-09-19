@@ -1,3 +1,5 @@
+/* Styles go here */
+
 body {
     font-size: .75em;
     background: white;
@@ -28,7 +30,5 @@ img {
     margin: auto;
     padding: .5em;
     font-size: 1.2em;
-    background: #F0F8FF;
-    border: 2px solid black;
     border-radius: 1em;
 }
