@@ -1,5 +1,3 @@
-// Code goes here
-
 var Card = React.createClass({
     getInitialState: function() {
         return {};  
@@ -16,6 +14,7 @@ var Card = React.createClass({
                 <div className="userX"> 
                     <img src={this.state.avatar_url} width="80" />
                     <h3 className="fRight">{this.state.name}</h3>
+                    <h3>{this.state.login} : {this.state.id}</h3>
                     <h3>{this.state.company} In {this.state.location}</h3>
                 </div>
             </div>
