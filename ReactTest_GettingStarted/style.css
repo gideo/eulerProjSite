@@ -1,5 +1,7 @@
 /* Styles go here */
 
+@import 'https://fonts.googleapis.com/css?family=Lobster|Open+Sans';
+
 body {
     font-size: .75em;
     background: white;
@@ -12,18 +14,36 @@ h3 {
     border-radius: .5em;
 }
 
+.font-oSans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.userX .fRight {
+    font-family: "Lobster", sans-serif;
+}
+
 .fRight {
     float:right;
+}
+
+.divCenter {
+    text-align: left;
+    padding: 2em;
+}
+
+.centered {
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    width: 75%;
+    margin: auto;
 }
 
 img {
     border-radius: 1em;
     border: 2px solid black;
-}
-
-.box {
-    margin: auto;
-    padding: 1em;
 }
 
 .userX {

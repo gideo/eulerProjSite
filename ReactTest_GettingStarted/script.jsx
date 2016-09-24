@@ -15,9 +15,9 @@ var Card = React.createClass({
             <div className="box">
                 <div className="userX"> 
                     <img src={this.state.avatar_url} width="80" />
-                    <h3 className="fRight">{this.state.login}</h3>
-                    <h3>{this.state.name}</h3>
-                    <h3>{this.state.company} In {this.state.location}</h3>
+                    <h1 className="fRight">{this.state.login}</h1>
+                    <h3 className="font-oSans">{this.state.name}</h3>
+                    <h3 className="font-oSans">{this.state.company} In {this.state.location}</h3>
                 </div>
             </div>
         )
@@ -33,10 +33,12 @@ var Form = React.createClass({
     },
     render: function() {
         return (
-            <form onSubmit={this.handleSubmit}>
-                <input placeholder="Add GitHub Username" ref="login"/>
-                <button>Add</button>
-            </form>
+            <div className="divCenter">
+                <form className="centered" onSubmit={this.handleSubmit}>
+                    <input placeholder="Add GitHub Username" ref="login"/>
+                    <button>Add</button>
+                </form>
+            </div>
         );
     }
 })
