@@ -18,6 +18,7 @@ var Card = React.createClass({
                     <h1 className="fRight">{this.state.login}</h1>
                     <h3 className="font-oSans">{this.state.name}</h3>
                     <h3 className="font-oSans">{this.state.company} In {this.state.location}</h3>
+                    <h3 className="font-oSans">{this.state.email}</h3>
                 </div>
             </div>
         )
