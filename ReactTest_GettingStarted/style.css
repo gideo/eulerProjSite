@@ -47,8 +47,9 @@ img {
 }
 
 .userX {
-    margin: auto;
-    padding: .25em;
+    background: #F5F5E6;
+    margin-top: 10px;
+    padding: .5em;
     font-size: 1em;
     border-radius: 1em;
 }
