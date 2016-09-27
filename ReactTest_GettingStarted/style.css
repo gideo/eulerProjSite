@@ -10,7 +10,7 @@ body {
 h3 {
     padding: .25em;
     background: #F2F0E6;
-    border: 2px solid black;
+    border: 2px solid #3B444B;
     border-radius: .5em;
 }
 
@@ -37,13 +37,13 @@ h3 {
 
 .box {
     display: inline-block;
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 
 img {
     border-radius: 1em;
-    border: 2px solid black;
+    border: 2px solid #3B444B;
 }
 
 .userX {
