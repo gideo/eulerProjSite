@@ -37,17 +37,17 @@ h3 {
 
 .box {
     display: inline-block;
-    width: 85%;
+    width: 88%;
     margin: auto;
 }
 
 img {
     border-radius: 1em;
-    border: 2px solid #3B444B;
+    border: 3px solid #ffffff;
 }
 
 .userX {
-    background: #F5F5E6;
+    background: #E5F5E6;
     margin-top: 10px;
     padding: .5em;
     font-size: 1em;
