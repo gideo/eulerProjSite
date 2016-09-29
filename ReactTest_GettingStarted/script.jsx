@@ -11,6 +11,8 @@ var Card = React.createClass({
         });
     },
     render: function() {
+        let name = this.state.name || "No Name";
+        name = name.split(" ")
         return (
             <div className="box">
                 <div className="userX"> 
