@@ -1,5 +1,3 @@
-// Code goes here
-
 var Card = React.createClass({
     getInitialState: function() {
         return {};  
@@ -13,6 +11,7 @@ var Card = React.createClass({
     render: function() {
         let name = this.state.name || "No Name";
         name = name.split(" ")
+        
         return (
             <div className="box">
                 <div className="userX"> 
@@ -20,7 +19,7 @@ var Card = React.createClass({
                     <h1 className="fRight">{this.state.login}</h1>
                     <h3 className="font-oSans">{this.state.name}</h3>
                     <h3 className="font-oSans">{this.state.company} In {this.state.location}</h3>
-                    <h3 className="font-oSans">{this.state.email}</h3>
+                    <h3 className="font-oSans">Email : {this.state.email}</h3>
                 </div>
             </div>
         )
@@ -48,7 +47,7 @@ var Form = React.createClass({
 
 var Main = React.createClass({
     getInitialState: function() {
-        return {logins: ['zpao', 'fisherwebdev', "petehunt", "spicyj"]};  
+        return {logins: ['zpao', 'fisherwebdev', "petehunt", "spicyj", "KevinMulhern"]};  
     },
     addCard: function(loginToAdd) {
         this.setState({logins: this.state.logins.concat(loginToAdd)});
