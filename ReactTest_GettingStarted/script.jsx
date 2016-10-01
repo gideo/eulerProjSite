@@ -16,10 +16,12 @@ var Card = React.createClass({
             <div className="box">
                 <div className="userX"> 
                     <img src={this.state.avatar_url} width="80" />
-                    <h1 className="fRight">{this.state.login}</h1>
+                    <div className="fRight">
+                        <h1>{this.state.login}</h1>
+                        <h4 className="font-oSans">{this.state.email}</h4>
+                    </div>
                     <h3 className="font-oSans">{this.state.name}</h3>
                     <h3 className="font-oSans">{this.state.company} In {this.state.location}</h3>
-                    <h3 className="font-oSans">Email : {this.state.email}</h3>
                 </div>
             </div>
         )
