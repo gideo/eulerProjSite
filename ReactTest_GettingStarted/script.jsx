@@ -21,8 +21,8 @@ var Card = React.createClass({
                         <h4 className="font-oSans">{this.state.email}</h4>
                     </div>
                     <div className="bg">
-                        <p className="font-oSans">{this.state.name}</p>
-                        <p className="font-oSans">{this.state.company} In {this.state.location}</p>
+                        <h4 className="font-oSans">{this.state.name}</h4>
+                        <h4 className="font-oSans">{this.state.company} In {this.state.location}</h4>
                     </div>
                     
                 </div>

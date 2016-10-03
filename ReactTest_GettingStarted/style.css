@@ -9,11 +9,10 @@ body {
 
 .bg {
     font-style: oblique;
-    margin: .25em;
-    padding: .5em;
+    padding-left: .5em;
     background: #F2F0E6;
     border: 2px solid #3B444B;
-    border-radius: .5em;
+    border-radius: 1em;
 }
 
 .font-oSans {
