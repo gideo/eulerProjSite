@@ -1,5 +1,3 @@
-/* Styles go here */
-
 @import 'https://fonts.googleapis.com/css?family=Lobster|Open+Sans';
 
 body {
@@ -9,10 +7,10 @@ body {
 
 .bg {
     font-style: oblique;
-    padding-left: .5em;
+    padding-left: 1.5em;
     background: #F2F0E6;
-    border: 2px solid #3B444B;
-    border-radius: 1em;
+    border: 2px solid #FDFEFD;
+    border-radius: 1.25em;
 }
 
 .font-oSans {
@@ -45,7 +43,7 @@ body {
 
 img {
     border-radius: 1em;
-    border: 3px solid #fdfefd;
+    border: 3px solid #FDFEFD;
 }
 
 .userX {
