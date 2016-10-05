@@ -15,7 +15,7 @@ var Card = React.createClass({
         return (
             <div className="box">
                 <div className="userX"> 
-                    <img src={this.state.avatar_url} width="80" />
+                    <img src={this.state.avatar_url} width="75" />
                     <div className="fRight">
                         <h1>{this.state.login}</h1>
                         <h4 className="font-oSans">{this.state.email}</h4>
@@ -52,13 +52,13 @@ var Form = React.createClass({
 
 var Main = React.createClass({
     getInitialState: function() {
-        return {logins: ['zpao', 'fisherwebdev', "petehunt", "spicyj", "KevinMulhern"]};  
+        return {logins: ['zpao', 'fisherwebdev', "petehunt", "spicyj","jlord","moose-team"]};  
     },
     addCard: function(loginToAdd) {
         this.setState({logins: this.state.logins.concat(loginToAdd)});
     },
     render: function() {
-        var cards = this.state.logins.map(function(login) {
+        var cards = this.state.logins.sort().map(function(login) {
             return (<Card login={login} />);
         });
         return (

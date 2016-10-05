@@ -5,6 +5,10 @@ body {
     background: white;
 }
 
+h4 {
+    font-size: 1.1em;
+}
+
 .bg {
     font-style: oblique;
     padding-left: 1.5em;
