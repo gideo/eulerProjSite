@@ -11,7 +11,25 @@ var Card = React.createClass({
     render: function() {
         let name = this.state.name || "No Name";
         name = name.split(" ")
-        
+        console.log(this.state.company);
+        if(this.state.company) {
+            return (
+            <div className="box">
+                <div className="userX"> 
+                    <img src={this.state.avatar_url} width="75" />
+                    <div className="fRight">
+                        <h1>{this.state.login}</h1>
+                        <h4 className="font-oSans">{this.state.email}</h4>
+                    </div>
+                    <div className="bg">
+                        <h4 className="font-oSans">{name[0]} {name[1]}</h4>
+                        <h4 className="font-oSans">{this.state.company} in {this.state.location}</h4>
+                    </div>
+                    
+                </div>
+            </div>
+            )
+        }
         return (
             <div className="box">
                 <div className="userX"> 
@@ -21,8 +39,8 @@ var Card = React.createClass({
                         <h4 className="font-oSans">{this.state.email}</h4>
                     </div>
                     <div className="bg">
-                        <h4 className="font-oSans">{this.state.name}</h4>
-                        <h4 className="font-oSans">{this.state.company} In {this.state.location}</h4>
+                        <h4 className="font-oSans">{name[0]} {name[1]}</h4>
+                        <h4 className="font-oSans"> From {this.state.location}</h4>
                     </div>
                     
                 </div>
@@ -52,7 +70,7 @@ var Form = React.createClass({
 
 var Main = React.createClass({
     getInitialState: function() {
-        return {logins: ['zpao', 'fisherwebdev', "petehunt", "spicyj","jlord","moose-team"]};  
+        return {logins: ['zpao', 'fisherwebdev', "petehunt", "spicyj","jlord","moose-team","KevinMulhern","evanburkey"]};  
     },
     addCard: function(loginToAdd) {
         this.setState({logins: this.state.logins.concat(loginToAdd)});
