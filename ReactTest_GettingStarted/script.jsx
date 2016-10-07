@@ -54,13 +54,13 @@ var Form = React.createClass({
         e.preventDefault();
         var loginInput = React.findDOMNode(this.refs.login);
         this.props.addCard(loginInput.value);
-        loginInput.value = '';
+        loginInput.value = "";
     },
     render: function() {
         return (
             <div className="divCenter">
                 <form className="centered" onSubmit={this.handleSubmit}>
-                    <input placeholder="Add GitHub Username" ref="login"/>
+                    <input placeholder="Add GitHub User" ref="login"/>
                     <button>Add</button>
                 </form>
             </div>
@@ -70,7 +70,8 @@ var Form = React.createClass({
 
 var Main = React.createClass({
     getInitialState: function() {
-        return {logins: ['zpao', 'fisherwebdev', "petehunt", "spicyj","jlord","moose-team","KevinMulhern","evanburkey"]};  
+        return {logins: ["zpao", "fisherwebdev", "petehunt", "spicyj","jlord","moose-team","KevinMulhern","evanburkey",
+                        "tlapinsk"]};  
     },
     addCard: function(loginToAdd) {
         this.setState({logins: this.state.logins.concat(loginToAdd)});
