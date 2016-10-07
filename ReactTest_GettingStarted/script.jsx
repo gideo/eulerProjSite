@@ -17,7 +17,7 @@ var Card = React.createClass({
             <div className="box">
                 <div className="userX"> 
                     <img src={this.state.avatar_url} width="75" />
-                    <div className="fRight">
+                    <div className="fRight textRight">
                         <h1>{this.state.login}</h1>
                         <h4 className="font-oSans">{this.state.email}</h4>
                     </div>

@@ -1,11 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Lobster|Open+Sans';
-
 body {
     font-size: .72em;
     background: white;
 }
 
-h1 {
+.textRight {
     text-align: right;
 }
 
@@ -30,7 +29,7 @@ h4 {
 }
 
 .fRight {
-    float:right;
+    float: right;
     margin-right: 10px;
 }
 
