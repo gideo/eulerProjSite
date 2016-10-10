@@ -71,7 +71,7 @@ var Form = React.createClass({
 var Main = React.createClass({
     getInitialState: function() {
         return {logins: ["zpao", "fisherwebdev", "petehunt", "spicyj","jlord","moose-team","KevinMulhern","evanburkey",
-                        "tlapinsk"]};  
+                        "tlapinsk", "gideo"]};  
     },
     addCard: function(loginToAdd) {
         this.setState({logins: this.state.logins.concat(loginToAdd)});
