@@ -29,13 +29,18 @@ h4 {
     font-family: "Lobster", sans-serif;
 }
 
+#root {
+    margin: auto;
+    text-align: center;
+}
+
 .fRight {
     float:right;
     margin-right: 10px;
 }
 
 .divCenter {
-    text-align: left;
+    text-align: center;
     padding: 2.2em;
 }
 
