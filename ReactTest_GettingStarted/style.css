@@ -31,7 +31,7 @@ h4 {
 
 #root {
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .fRight {
@@ -40,7 +40,7 @@ h4 {
 }
 
 .divCenter {
-    text-align: center;
+    text-align: left;
     padding: 2.2em;
 }
 
@@ -52,6 +52,7 @@ h4 {
     display: inline-block;
     width: 285px;
     margin: auto;
+    padding-bottom: 2em;
 }
 
 img {
