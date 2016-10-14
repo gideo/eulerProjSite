@@ -57,6 +57,7 @@ var Card = React.createClass({
                     </div>
                     <div className="bg">
                         <h4 className="font-oSans">{name[0]} {name[1]}</h4>
+                        <h4 className="font-oSans">Location: N/A</h4>
                     </div>
                     
                 </div>
