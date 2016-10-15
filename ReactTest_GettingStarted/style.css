@@ -5,10 +5,6 @@ body {
     background: white;
 }
 
-.textRight {
-    text-align: right;
-}
-
 h4 {
     font-size: 1.1em;
 }
@@ -21,17 +17,29 @@ h4 {
     border-radius: 1.25em;
 }
 
-.font-oSans {
-    font-family: "Open Sans", sans-serif;
+.box {
+    display: inline-block;
+    width: 285px;
+    margin: 1em;
+    padding-bottom: 1.75em;
+    
 }
 
-.userX .fRight {
+.box .fRight {
     font-family: "Lobster", sans-serif;
 }
 
-#root {
-    margin: auto;
+.centered {
+    display: inline-block;
+}
+
+.divCenter {
     text-align: left;
+    padding: 2.2em;
+}
+
+.font-oSans {
+    font-family: "Open Sans", sans-serif;
 }
 
 .fRight {
@@ -44,26 +52,13 @@ h4 {
     margin-left: 10px;
 }
 
-.divCenter {
-    text-align: left;
-    padding: 2.2em;
-}
-
-.centered {
-    display: inline-block;
-}
-
-.box {
-    display: inline-block;
-    width: 285px;
-    margin: 1em;
-    padding-bottom: 1.75em;
-    
-}
-
 img {
     border-radius: 4em;
     border: 3px solid #FDFEFD;
+}
+
+.textRight {
+    text-align: right;
 }
 
 .userX {
@@ -72,4 +67,9 @@ img {
     padding: .5em;
     font-size: 1em;
     border-radius: 1em;
+}
+
+#root {
+    margin: auto;
+    text-align: left;
 }
