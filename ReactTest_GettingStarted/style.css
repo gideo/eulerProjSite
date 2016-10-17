@@ -25,10 +25,6 @@ h4 {
     
 }
 
-.box .fRight {
-    font-family: "Lobster", sans-serif;
-}
-
 .centered {
     display: inline-block;
 }
@@ -45,6 +41,7 @@ h4 {
 .fRight {
     float:right;
     margin-right: 10px;
+    font-family: "Lobster", sans-serif;
 }
 
 .fLeft {
