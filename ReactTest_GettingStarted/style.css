@@ -12,7 +12,7 @@ h4 {
 .bg {
     font-style: oblique;
     padding-left: 1.5em;
-    background: #F2F0E6;
+    background: #EAF0E6;
     border: 2px solid #FDFEFD;
     border-radius: 1.25em;
 }
@@ -23,10 +23,6 @@ h4 {
     margin: 1em;
     padding-bottom: 1.75em;
     
-}
-
-.centered {
-    display: inline-block;
 }
 
 .divCenter {

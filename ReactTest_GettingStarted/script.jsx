@@ -76,7 +76,7 @@ var Form = React.createClass({
     render: function() {
         return (
             <div className="divCenter">
-                <form className="centered" onSubmit={this.handleSubmit}>
+                <form onSubmit={this.handleSubmit}>
                     <input placeholder="Add User" ref="login"/>
                     <button>Add</button>
                 </form>
