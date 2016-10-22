@@ -5,7 +5,11 @@ var StarsFrame = React.createClass({
         return (
             <div id="stars-frame">
                 <div className="well">
-                    <span className="glyphicon gylphicon-star"></span>
+                    <span className="glyphicon glyphicon-star"></span>
+                    <span className="glyphicon glyphicon-star"></span>
+                    <span className="glyphicon glyphicon-star"></span>
+                    <span className="glyphicon glyphicon-star"></span>
+                    <span className="glyphicon glyphicon-star"></span>
                 </div>
             </div>
         )
