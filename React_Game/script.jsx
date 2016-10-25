@@ -1,12 +1,12 @@
-// Code goes here
-
 var StarsFrame = React.createClass({
     render: function() {
         var numberOfStars = Math.floor(Math.random()*9);
         
         var stars = [];
         for(var i = 0; i < numberOfStars; i++) {
-            stars.push(<span className="glyphicon glyphicon-star"></span>)
+            stars.push(
+                <span className="glyphicon glyphicon-star"></span>
+            );
         }
         return (
             <div id="stars-frame">
@@ -33,7 +33,7 @@ var AnswerFrame = React.createClass({
         return (
            <div id="answer-frame">
                 <div className="well"> 
-                    ...
+                    Answer Frame
                 </div>
             </div>
         )
@@ -44,10 +44,11 @@ var NumbersFrame = React.createClass({
     render: function() {
         
         var numbers = [];
+        
         for(var i = 0; i <= 9; i+=1) {
             numbers.push(
                     <div className="number">{i}</div>
-            )
+            );
         }
         return (
            <div id="numbers-frame">
