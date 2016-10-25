@@ -67,14 +67,14 @@ var Game = React.createClass({
                 <h2>Play Nine</h2>
                 
                 <hr />
+                
+                <NumbersFrame />
                 <div className="clearfix">
                     <StarsFrame />
                     <ButtonFrame />
                     <AnswerFrame />
                 </div>
-                
-                <NumbersFrame />
-                
+
             </div>
         )
     }
