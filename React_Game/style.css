@@ -18,7 +18,7 @@
 }
 
 #stars-frame .well, #answer-frame .well {
-    height: 150px;
+    height: 200px;
 }
 
 #numbers-frame .number, #answer-frame .well span {
@@ -30,4 +30,10 @@
     font-size: 22px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+#numbers-frame .selected-true {
+    background-color: #e8e8e8;
+    color: #ddd;
+    cursor: not-allowed;
 }
