@@ -30,10 +30,19 @@ var ButtonFrame = React.createClass({
 
 var AnswerFrame = React.createClass({
     render: function() {
+        var props = this.props;
+        var selectedNumbers = props.selectedNumbers.map(function(i) {
+            return (
+                <span> 
+                    {i} 
+                </span>
+            )
+        });
+        
         return (
            <div id="answer-frame">
                 <div className="well"> 
-                    Answer Frame
+                    {selectedNumbers}
                 </div>
             </div>
         )
@@ -75,7 +84,7 @@ var Game = React.createClass({
                 <div className="clearfix">
                     <StarsFrame />
                     <ButtonFrame />
-                    <AnswerFrame />
+                    <AnswerFrame selectedNumbers={this.state.selectedNumbers} />
                 </div>
 
             </div>
