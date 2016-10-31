@@ -124,6 +124,5 @@ var Game = React.createClass({
 })
 
 React.render(
-  <Game />,
-  document.getElementById('container')
+    <Game />, document.getElementById('container')
 );
