@@ -22,10 +22,29 @@ var StarsFrame = React.createClass({
 var ButtonFrame = React.createClass({
     render: function() {
         var disabled, button, correct = this.props.correct;
-        disabled = (this.props.selectedNumbers.length === 0);
+        
+        switch(correct) {
+            case true:
+                button = (
+                <button className="btn btn-primary btn-lg" disabled={disabled}>
+                =
+                </button>
+                );
+                break;
+            case false:
+                break;
+            default:
+                disabled = (this.props.selectedNumbers.length === 0);
+                button = (
+                    <button className="btn btn-primary btn-lg" disabled={disabled}>
+                    =
+                    </button>
+                );
+        }
+
         return (
             <div id="button-frame">
-                <button className="btn btn-primary btn-lg" disabled={disabled}>=</button>
+                {button}
             </div>
         )
     }
