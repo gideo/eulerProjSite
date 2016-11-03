@@ -21,6 +21,7 @@ var StarsFrame = React.createClass({
 
 var ButtonFrame = React.createClass({
     render: function() {
+        
         var disabled, button, correct = this.props.correct;
         
         switch(correct) {
@@ -123,13 +124,10 @@ var Game = React.createClass({
         }
     },
     sumOfSelectedNumbers: function() {
-        //return this.state.selectedNumbers.reduce(function(p,n) {
-        //    return p+n;
-        //}, 0)
-        
         return this.state.selectedNumbers.reduce( (p,n) => (p+n), 0);
     },
     checkAnswer: function() {
+        
         var correct = (this.state.numberOfStars === this.sumOfSelectedNumbers());
         this.setState({correct: correct});
         
@@ -145,6 +143,7 @@ var Game = React.createClass({
     },
 
     render: function() {
+        
         var selectedNumbers = this.state.selectedNumbers,
             numberOfStars = this.state.numberOfStars;
             correct = this.state.correct;
