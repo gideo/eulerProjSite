@@ -3,10 +3,10 @@ h2 {
 }
 
 #button-frame {
-    width: 20%;
     float: left;
-    text-align: center;
     margin-top: 70px;
+    text-align: center;
+    width: 20%;
 }
 
 #numbers-frame .number, #answer-frame .well span {
@@ -27,13 +27,13 @@ h2 {
 }
 
 #stars-frame .glyphicon {
-    margin: 0.3em;
     font-size: 1.75em;
+    margin: 0.3em;
 }
 
 #stars-frame, #answer-frame {
-    width: 40%;
     float: left;
+    width: 40%;
 }
 
 #stars-frame .well, #answer-frame .well {
