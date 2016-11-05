@@ -95,6 +95,7 @@ var NumbersFrame = React.createClass({
                 </div>
             );
         }
+        
         return (
            <div id="numbers-frame">
                 <div className="well"> 
@@ -123,15 +124,18 @@ var Game = React.createClass({
             );    
         }
     },
+    
     sumOfSelectedNumbers: function() {
         return this.state.selectedNumbers.reduce( (p,n) => (p+n), 0);
     },
+    
     checkAnswer: function() {
         
         var correct = (this.state.numberOfStars === this.sumOfSelectedNumbers());
         this.setState({correct: correct});
         
     },
+    
     unselectNumber: function(clickedNumber) {
 
         var selectedNumbers = this.state.selectedNumbers,
@@ -147,6 +151,7 @@ var Game = React.createClass({
         var selectedNumbers = this.state.selectedNumbers,
             numberOfStars = this.state.numberOfStars;
             correct = this.state.correct;
+        
         return (
             <div id="game">
                 <h2>Play Nine</h2>
@@ -164,7 +169,7 @@ var Game = React.createClass({
             </div>
         )
     }
-})
+});
 
 React.render(
     <Game />, document.getElementById('container')
