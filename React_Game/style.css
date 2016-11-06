@@ -26,6 +26,12 @@ h2 {
     cursor: not-allowed;
 }
 
+#numbers-frame .used-true {
+    background-color: #aaddaa;
+    color: #99bb99;
+    cursor: not-allowed;
+}
+
 #stars-frame .glyphicon {
     font-size: 1.75em;
     margin: 0.3em;

@@ -115,7 +115,7 @@ var Game = React.createClass({
 
         return { numberOfStars: Math.floor(Math.random() * 9) + 1,
                 selectedNumbers: [],
-                usedNumbers: [4,7],
+                usedNumbers: [],
                 correct: null
         };
     },
