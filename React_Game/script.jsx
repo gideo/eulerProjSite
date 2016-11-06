@@ -27,7 +27,8 @@ var ButtonFrame = React.createClass({
         switch(correct) {
             case true:
                 button = (
-                    <button className="btn btn-success btn-lg" disabled={disabled}>
+                    <button className="btn btn-success btn-lg" 
+                            onClick={this.props.acceptAnswer}>
                         <span className="glyphicon glyphicon-ok"></span>
                     </button>
                 );
@@ -151,7 +152,13 @@ var Game = React.createClass({
         this.setState({ selectedNumbers: selectedNumbers, correct: null });
     },
     acceptAnswer:function() {
-        //usedNumbers...
+        var usedNumbers = this.state.usedNumbers.concat(this.state.selectedNumbers);
+        this.setState({
+            selectedNumbers: [],
+            usedNumbers: usedNumbers,
+            correct: null,
+            numberOfStars: Math.floor(Math.random() * 9) + 1
+        });
     },
     render: function() {
         
@@ -168,7 +175,8 @@ var Game = React.createClass({
                     <StarsFrame numberOfStars={this.state.numberOfStars} />
                     <ButtonFrame selectedNumbers={this.state.selectedNumbers}
                                  correct={correct}
-                                 checkAnswer={this.checkAnswer}/>
+                                 checkAnswer={this.checkAnswer}
+                                 acceptAnswer={this.acceptAnswer}/>
                     <AnswerFrame selectedNumbers={this.state.selectedNumbers} 
                                  unselectNumber={this.unselectNumber} />
                 </div>
