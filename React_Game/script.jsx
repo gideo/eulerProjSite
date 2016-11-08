@@ -180,7 +180,7 @@ var Game = React.createClass({
         var selectedNumbers = this.state.selectedNumbers,
             numberOfStars = this.state.numberOfStars,
             usedNumbers = this.state.usedNumbers,
-            redraws = this.state.redraws;
+            redraws = this.state.redraws,
             correct = this.state.correct;
         
         return (
@@ -191,6 +191,7 @@ var Game = React.createClass({
                     <StarsFrame numberOfStars={this.state.numberOfStars} />
                     <ButtonFrame selectedNumbers={this.state.selectedNumbers}
                                  correct={correct}
+                                 redraws={redraws}
                                  checkAnswer={this.checkAnswer}
                                  acceptAnswer={this.acceptAnswer}
                                  redraw={this.redraw}/>
