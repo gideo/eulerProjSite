@@ -172,7 +172,8 @@ var Game = React.createClass({
         this.setState({
             numberOfStars: Math.floor(Math.random()*9) + 1,
             correct: null,
-            selectedNumbers: []
+            selectedNumbers: [],
+            redraws: this.state.redraws - 1
         })
     },
     render: function() {
