@@ -10,7 +10,7 @@ h2 {
 }
 
 #numbers-frame .number, #answer-frame .well span {
-    background-color: #bbbbbb;
+    background-color: #bbb;
     border-radius: 50%;
     cursor: pointer;
     display: inline-block;
@@ -27,8 +27,8 @@ h2 {
 }
 
 #numbers-frame .used-true {
-    background-color: #aaddaa;
-    color: #99bb99;
+    background-color: #ada;
+    color: #9b9;
     cursor: not-allowed;
 }
 
