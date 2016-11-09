@@ -127,7 +127,35 @@ var Game = React.createClass({
                 correct: null
         };
     },
-
+    
+    acceptAnswer:function() {
+        var usedNumbers = this.state.usedNumbers.concat(this.state.selectedNumbers);
+        this.setState({
+            selectedNumbers: [],
+            usedNumbers: usedNumbers,
+            correct: null,
+            numberOfStars: Math.floor(Math.random() * 9) + 1
+        });
+    },
+    
+    checkAnswer: function() {
+        
+        var correct = (this.state.numberOfStars === this.sumOfSelectedNumbers());
+        this.setState({correct: correct});
+        
+    },
+    
+    redraw: function() {
+        if(this.state.redraws > 0) {
+            this.setState({
+            numberOfStars: Math.floor(Math.random()*9) + 1,
+            correct: null,
+            selectedNumbers: [],
+            redraws: this.state.redraws - 1
+            });    
+        }
+    },
+    
     selectNumber: function(clickedNumber) {
     	
         if(this.state.selectedNumbers.indexOf(clickedNumber) < 0) {
@@ -142,13 +170,6 @@ var Game = React.createClass({
         return this.state.selectedNumbers.reduce( (p,n) => (p+n), 0);
     },
     
-    checkAnswer: function() {
-        
-        var correct = (this.state.numberOfStars === this.sumOfSelectedNumbers());
-        this.setState({correct: correct});
-        
-    },
-    
     unselectNumber: function(clickedNumber) {
 
         var selectedNumbers = this.state.selectedNumbers,
@@ -157,24 +178,6 @@ var Game = React.createClass({
         selectedNumbers.splice(indexOfNumber, 1);
         
         this.setState({ selectedNumbers: selectedNumbers, correct: null });
-    },
-    
-    acceptAnswer:function() {
-        var usedNumbers = this.state.usedNumbers.concat(this.state.selectedNumbers);
-        this.setState({
-            selectedNumbers: [],
-            usedNumbers: usedNumbers,
-            correct: null,
-            numberOfStars: Math.floor(Math.random() * 9) + 1
-        });
-    },
-    redraw: function() {
-        this.setState({
-            numberOfStars: Math.floor(Math.random()*9) + 1,
-            correct: null,
-            selectedNumbers: [],
-            redraws: this.state.redraws - 1
-        })
     },
     render: function() {
         
@@ -200,8 +203,8 @@ var Game = React.createClass({
                                  unselectNumber={this.unselectNumber} />
                 </div>
                 <NumbersFrame selectedNumbers={this.state.selectedNumbers}
-                                usedNumbers={usedNumbers}
-                                selectNumber={this.selectNumber} />
+                              usedNumbers={usedNumbers}
+                              selectNumber={this.selectNumber} />
             </div>
         )
     }
