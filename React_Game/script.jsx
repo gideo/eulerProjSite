@@ -1,4 +1,6 @@
+
 var StarsFrame = React.createClass({
+    
     render: function() {
 
         var stars = [];
@@ -20,6 +22,7 @@ var StarsFrame = React.createClass({
 });
 
 var ButtonFrame = React.createClass({
+    
     render: function() {
         
         var disabled, button, correct = this.props.correct;
@@ -67,6 +70,7 @@ var ButtonFrame = React.createClass({
 });
 
 var AnswerFrame = React.createClass({
+    
     render: function() {
 
         var props = this.props;
@@ -89,6 +93,7 @@ var AnswerFrame = React.createClass({
 });
 
 var NumbersFrame = React.createClass({
+    
     render: function() {
         
         var numbers = [], className, 
@@ -123,7 +128,7 @@ var Game = React.createClass({
         return { numberOfStars: Math.floor(Math.random() * 9) + 1,
                 selectedNumbers: [],
                 usedNumbers: [],
-                redraws: 5,
+                redraws: 8,
                 correct: null
         };
     },
@@ -179,6 +184,7 @@ var Game = React.createClass({
         
         this.setState({ selectedNumbers: selectedNumbers, correct: null });
     },
+    
     render: function() {
         
         var selectedNumbers = this.state.selectedNumbers,
