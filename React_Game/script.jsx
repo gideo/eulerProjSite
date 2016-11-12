@@ -198,19 +198,25 @@ var Game = React.createClass({
                 <h2>Play Nine</h2>
                 <hr />
                 <div className="clearfix">
+                
                     <StarsFrame numberOfStars={this.state.numberOfStars} />
+                    
                     <ButtonFrame selectedNumbers={this.state.selectedNumbers}
                                  correct={correct}
                                  redraws={redraws}
                                  checkAnswer={this.checkAnswer}
                                  acceptAnswer={this.acceptAnswer}
                                  redraw={this.redraw}/>
+                                 
                     <AnswerFrame selectedNumbers={this.state.selectedNumbers} 
                                  unselectNumber={this.unselectNumber} />
+                                 
                 </div>
+                
                 <NumbersFrame selectedNumbers={this.state.selectedNumbers}
                               usedNumbers={usedNumbers}
                               selectNumber={this.selectNumber} />
+                              
             </div>
         )
     }
