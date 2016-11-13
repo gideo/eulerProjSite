@@ -123,6 +123,7 @@ var NumbersFrame = React.createClass({
 });
 
 var DoneFrame = React.createClass({
+    
     render: function() {
         return (
             <div className="well text-center">
@@ -139,7 +140,7 @@ var Game = React.createClass({
         return { numberOfStars: this.randomNumber(),
                 selectedNumbers: [],
                 usedNumbers: [],
-                redraws: 5,
+                redraws: 9,
                 correct: null,
                 doneStatus: null
         };
@@ -169,10 +170,10 @@ var Game = React.createClass({
     redraw: function() {
         if(this.state.redraws > 0) {
             this.setState({
-            numberOfStars: this.randomNumber(),
-            correct: null,
-            selectedNumbers: [],
-            redraws: this.state.redraws - 1
+                numberOfStars: this.randomNumber(),
+                correct: null,
+                selectedNumbers: [],
+                redraws: this.state.redraws - 1
             });    
         }
     },
@@ -241,6 +242,7 @@ var Game = React.createClass({
                 </div>
                 
                 {bottomFrame}
+                
             </div>
         )
     }
