@@ -122,6 +122,16 @@ var NumbersFrame = React.createClass({
     }
 });
 
+var DoneFrame = React.createClass({
+    render: function() {
+        return (
+            <div className="well text-center">
+                <h2>...</h2>
+            </div>
+        );
+    }
+});
+
 var Game = React.createClass({
 
     getInitialState: function() {
@@ -130,12 +140,15 @@ var Game = React.createClass({
                 selectedNumbers: [],
                 usedNumbers: [],
                 redraws: 5,
-                correct: null
+                correct: null,
+                doneStateus: 'Game Over! '
         };
     },
+    
     randomNumber: function() {
         return Math.floor(Math.random() * 9) + 1;
     },
+    
     acceptAnswer:function() {
         var usedNumbers = this.state.usedNumbers.concat(this.state.selectedNumbers);
         this.setState({
