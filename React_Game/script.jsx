@@ -126,7 +126,7 @@ var DoneFrame = React.createClass({
     render: function() {
         return (
             <div className="well text-center">
-                <h2>...</h2>
+                <h2>{this.props.doneStatus}</h2>
             </div>
         );
     }
@@ -141,7 +141,7 @@ var Game = React.createClass({
                 usedNumbers: [],
                 redraws: 5,
                 correct: null,
-                doneStateus: 'Game Over! '
+                doneStatus: 'Game Over!'
         };
     },
     
@@ -207,8 +207,8 @@ var Game = React.createClass({
             numberOfStars = this.state.numberOfStars,
             usedNumbers = this.state.usedNumbers,
             redraws = this.state.redraws,
-            correct = this.state.correct;
-        
+            correct = this.state.correct,
+            doneStatus = this.state.doneStatus;
         return (
             <div id="game">
                 <h2>Play Nine</h2>
@@ -232,6 +232,7 @@ var Game = React.createClass({
                 <NumbersFrame selectedNumbers={this.state.selectedNumbers}
                               usedNumbers={usedNumbers}
                               selectNumber={this.selectNumber} />
+                <DoneFrame doneStatus={doneStatus} />
                               
             </div>
         )
