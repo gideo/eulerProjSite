@@ -28,6 +28,7 @@ var ButtonFrame = React.createClass({
         var disabled, button, correct = this.props.correct;
         
         switch(correct) {
+            
             case true:
                 button = (
                     <button className="btn btn-success btn-lg" 
@@ -140,7 +141,7 @@ var Game = React.createClass({
         return { numberOfStars: this.randomNumber(),
                 selectedNumbers: [],
                 usedNumbers: [],
-                redraws: 9,
+                redraws: 5,
                 correct: null,
                 doneStatus: null
         };
@@ -220,7 +221,6 @@ var Game = React.createClass({
                               selectNumber={this.selectNumber} />
         }
         
-            
         return (
             <div id="game">
                 <h2>Play Nine</h2>
