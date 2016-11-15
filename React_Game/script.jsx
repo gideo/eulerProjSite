@@ -17,7 +17,7 @@ var StarsFrame = React.createClass({
                     {stars}
                 </div>
             </div>
-        )
+        );
     }
 });
 
@@ -67,7 +67,7 @@ var ButtonFrame = React.createClass({
                     {this.props.redraws}
                 </button>
             </div>
-        )
+        );
     }
 });
 
@@ -81,7 +81,7 @@ var AnswerFrame = React.createClass({
                 <span onClick={props.unselectNumber.bind(null, i)}>
                     {i}
                 </span>
-            )
+            );
         });
         
         return (
@@ -90,7 +90,7 @@ var AnswerFrame = React.createClass({
                     {selectedNumbers}
                 </div>
             </div>
-        )
+        );
     }
 });
 
@@ -119,7 +119,7 @@ var NumbersFrame = React.createClass({
                     {numbers}
                 </div>
             </div>
-        )
+        );
     }
 });
 
@@ -148,7 +148,7 @@ var Game = React.createClass({
     },
     
     randomNumber: function() {
-        return Math.floor(Math.random() * 9) + 1;
+        return (Math.floor(Math.random() * 9) + 1);
     },
     
     acceptAnswer:function() {
@@ -244,7 +244,7 @@ var Game = React.createClass({
                 {bottomFrame}
                 
             </div>
-        )
+        );
     }
 });
 
