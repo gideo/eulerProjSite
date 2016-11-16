@@ -203,15 +203,29 @@ var Game = React.createClass({
         this.setState({ selectedNumbers: selectedNumbers, correct: null });
     },
     
+    possibleSolution: function() {
+        var numberOfStars = this.state.numberOfStars,
+            possibleNumbers = [],
+            usedNUmbers = this.state.usedNumbers;
+        for(var i = 1; i <=9 ;i++){
+            if(usedNUmbers.indexOf(i) < 0) {
+                possibleNumbers.push(i);
+            }
+        }
+        
+        return possibleCombinationSum(possibleNumbers, numberOfStars);
+    },
+    
     updateDoneStatus: function() {
         if(this.state.usedNumbers.length === 9){
             this.setState({doneStatus: 'Done, Nice!'});
             return;
         } 
-        if(!this.possibleSolutions()){
+        if(this.state.redraws ===0 && !this.possibleSolution()){
             this.setState({doneStatues: 'Game Over!'});
         }
     },
+    
     render: function() {
         
         var selectedNumbers = this.state.selectedNumbers,
