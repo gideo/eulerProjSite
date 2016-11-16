@@ -151,6 +151,7 @@ var DoneFrame = React.createClass({
         return (
             <div className="well text-center">
                 <h2>{this.props.doneStatus}</h2>
+                <button className="btn btn-default">Play again</button>
             </div>
         );
     }
@@ -171,6 +172,10 @@ var Game = React.createClass({
     
     randomNumber: function() {
         return (Math.floor(Math.random() * 9) + 1);
+    },
+    
+    resetGame: function() {
+        this.replaceState(this.getInitialState());
     },
     
     acceptAnswer:function() {
@@ -249,8 +254,8 @@ var Game = React.createClass({
             this.setState({doneStatus: 'Done, Nice!'});
             return;
         } 
-        if(this.state.redraws ===0 && !this.possibleSolution()){
-            this.setState({doneStatues: 'Game Over!'});
+        if(this.state.redraws === 0 && !this.possibleSolution()){
+            this.setState({doneStatus: 'Game Over!'});
         }
     },
     
