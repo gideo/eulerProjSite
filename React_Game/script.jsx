@@ -254,7 +254,7 @@ var Game = React.createClass({
     
     updateDoneStatus: function() {
         if(this.state.usedNumbers.length === 9){
-            this.setState({doneStatus: 'Done, Nice!'});
+            this.setState({doneStatus: 'Well Played!'});
             return;
         } 
         if(this.state.redraws === 0 && !this.possibleSolution()){
