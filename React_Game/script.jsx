@@ -203,6 +203,15 @@ var Game = React.createClass({
         this.setState({ selectedNumbers: selectedNumbers, correct: null });
     },
     
+    updateDoneStatus: function() {
+        if(this.state.usedNumbers.length === 9){
+            this.setState({doneStatus: 'Done, Nice!'});
+            return;
+        } 
+        if(!this.possibleSolutions()){
+            this.setState({doneStatues: 'Game Over!'});
+        }
+    },
     render: function() {
         
         var selectedNumbers = this.state.selectedNumbers,
