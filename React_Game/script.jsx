@@ -1,19 +1,31 @@
 
 var possibleCombinationSum = function(arr, n) {
-    if (arr.indexOf(n) >= 0) { return true; }
-    if (arr[0] > n) { return false; }
+    
+    if (arr.indexOf(n) >= 0) { 
+        return true; 
+    }
+    
+    if (arr[0] > n) { 
+        return false; 
+    }
+    
     if (arr[arr.length - 1] > n) {
         arr.pop();
         return possibleCombinationSum(arr, n);
     }
+    
     var listSize = arr.length, combinationsCount = (1 << listSize)
+    
     for (var i = 1; i < combinationsCount ; i++ ) {
+        
         var combinationSum = 0;
-        for (var j=0 ; j < listSize ; j++) {
+        
+        for (var j = 0 ; j < listSize ; j++) {
             if (i & (1 << j)) { 
                 combinationSum += arr[j]; 
             }
         }
+        
         if (n === combinationSum) { 
             return true; 
         }
@@ -197,7 +209,6 @@ var Game = React.createClass({
         
         var correct = (this.state.numberOfStars === this.sumOfSelectedNumbers());
         this.setState({correct: correct});
-        
     },
     
     redraw: function() {
@@ -211,6 +222,21 @@ var Game = React.createClass({
                 this.updateDoneStatus();
             });    
         }
+    },
+    
+    possibleSolution: function() {
+        
+        var numberOfStars = this.state.numberOfStars,
+            possibleNumbers = [],
+            usedNUmbers = this.state.usedNumbers;
+            
+        for(var i = 1; i <=9 ;i++){
+            if(usedNUmbers.indexOf(i) < 0) {
+                possibleNumbers.push(i);
+            }
+        }
+        
+        return possibleCombinationSum(possibleNumbers, numberOfStars);
     },
     
     selectNumber: function(clickedNumber) {
@@ -237,26 +263,13 @@ var Game = React.createClass({
         this.setState({ selectedNumbers: selectedNumbers, correct: null });
     },
     
-    
-    
-    possibleSolution: function() {
-        var numberOfStars = this.state.numberOfStars,
-            possibleNumbers = [],
-            usedNUmbers = this.state.usedNumbers;
-        for(var i = 1; i <=9 ;i++){
-            if(usedNUmbers.indexOf(i) < 0) {
-                possibleNumbers.push(i);
-            }
-        }
-        
-        return possibleCombinationSum(possibleNumbers, numberOfStars);
-    },
-    
     updateDoneStatus: function() {
+        
         if(this.state.usedNumbers.length === 9){
             this.setState({doneStatus: 'Well Played!'});
             return;
         } 
+        
         if(this.state.redraws === 0 && !this.possibleSolution()){
             this.setState({doneStatus: 'Game Over!'});
         }
