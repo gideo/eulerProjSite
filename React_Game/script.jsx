@@ -298,6 +298,9 @@ var Game = React.createClass({
             <div id="game">
                 <h2>Play Nine</h2>
                 <hr />
+                
+                {bottomFrame}
+                
                 <div className="clearfix">
                 
                     <StarsFrame numberOfStars={this.state.numberOfStars} />
@@ -313,8 +316,6 @@ var Game = React.createClass({
                                  unselectNumber={this.unselectNumber} />
                                  
                 </div>
-                
-                {bottomFrame}
                 
             </div>
         );

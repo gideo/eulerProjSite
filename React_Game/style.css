@@ -33,14 +33,14 @@ h2 {
     cursor: not-allowed;
 }
 
-#stars-frame .glyphicon {
-    font-size: 1.75em;
-    margin: 0.3em;
-}
-
 #stars-frame, #answer-frame {
     float: left;
     width: 40%;
+}
+
+#stars-frame .glyphicon {
+    font-size: 1.75em;
+    margin: 0.3em;
 }
 
 #stars-frame .well, #answer-frame .well {
