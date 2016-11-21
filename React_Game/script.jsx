@@ -40,17 +40,17 @@ var StarsFrame = React.createClass({
         var stars = [];
 
         for(var i = 0; i < this.props.numberOfStars; i++) {
-            stars.push(
-                <span className="glyphicon glyphicon-star"></span>
-            );
+            stars.push(<span className="glyphicon glyphicon-star"></span>);
         }
 
         return (
+            
             <div id="stars-frame">
                 <div className="well">
                     {stars}
                 </div>
             </div>
+            
         );
     }
 });
@@ -231,7 +231,7 @@ var Game = React.createClass({
             usedNUmbers = this.state.usedNumbers;
             
         for(var i = 1; i <=9 ;i++){
-            if(usedNUmbers.indexOf(i) < 0) {
+            if(usedNumbers.indexOf(i) < 0) {
                 possibleNumbers.push(i);
             }
         }
