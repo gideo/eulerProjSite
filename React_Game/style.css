@@ -5,17 +5,17 @@ h2 {
 
 #button-frame {
     float: left;
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: center;
     width: 20%;
 }
 
 #numbers-frame .number, #answer-frame .well span {
-    background-color: #bbb;
+    background-color: #bbc;
     border-radius: 50%;
     cursor: pointer;
     display: inline-block;
-    font-size: 22px;
+    font-size: 20px;
     margin: 0.5em;
     width: 30px;
     text-align: center;
@@ -29,7 +29,7 @@ h2 {
 
 #numbers-frame .used-true {
     background-color: #ada;
-    color: #9b9;
+    color: #ab9;
     cursor: not-allowed;
 }
 
@@ -39,10 +39,10 @@ h2 {
 }
 
 #stars-frame .glyphicon {
-    font-size: 1.75em;
+    font-size: 1.6em;
     margin: 0.3em;
 }
 
 #stars-frame .well, #answer-frame .well {
-    height: 200px;
+    height: 210px;
 }
