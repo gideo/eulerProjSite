@@ -30,6 +30,7 @@ var possibleCombinationSum = function(arr, n) {
             return true; 
         }
     }
+    
     return false;
 };
 
@@ -228,7 +229,7 @@ var Game = React.createClass({
         
         var numberOfStars = this.state.numberOfStars,
             possibleNumbers = [],
-            usedNUmbers = this.state.usedNumbers;
+            usedNumbers = this.state.usedNumbers;
             
         for(var i = 1; i <=9 ;i++){
             if(usedNumbers.indexOf(i) < 0) {
