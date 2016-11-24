@@ -1,13 +1,8 @@
 
 var possibleCombinationSum = function(arr, n) {
     
-    if (arr.indexOf(n) >= 0) { 
-        return true; 
-    }
-    
-    if (arr[0] > n) { 
-        return false; 
-    }
+    if (arr.indexOf(n) >= 0) { return true; }
+    if (arr[0] > n) { return false; }
     
     if (arr[arr.length - 1] > n) {
         arr.pop();
@@ -21,14 +16,10 @@ var possibleCombinationSum = function(arr, n) {
         var combinationSum = 0;
         
         for (var j = 0 ; j < listSize ; j++) {
-            if (i & (1 << j)) { 
-                combinationSum += arr[j]; 
-            }
+            if (i & (1 << j)) { combinationSum += arr[j]; }
         }
         
-        if (n === combinationSum) { 
-            return true; 
-        }
+        if (n === combinationSum) { return true; }
     }
     
     return false;
@@ -201,9 +192,7 @@ var Game = React.createClass({
             usedNumbers: usedNumbers,
             correct: null,
             numberOfStars: this.randomNumber()
-        }, function() {
-            this.updateDoneStatus();
-        });
+        }, function() { this.updateDoneStatus(); });
     },
     
     checkAnswer: function() {
@@ -219,9 +208,7 @@ var Game = React.createClass({
                 correct: null,
                 selectedNumbers: [],
                 redraws: this.state.redraws - 1
-            }, function() {
-                this.updateDoneStatus();
-            });    
+            }, function() { this.updateDoneStatus(); });    
         }
     },
     
@@ -243,8 +230,8 @@ var Game = React.createClass({
     selectNumber: function(clickedNumber) {
     	
         if(this.state.selectedNumbers.indexOf(clickedNumber) < 0) {
-            this.setState(
-                { selectedNumbers: this.state.selectedNumbers.concat(clickedNumber),
+            this.setState({ 
+                selectedNumbers: this.state.selectedNumbers.concat(clickedNumber),
                 correct: null}
             );    
         }
