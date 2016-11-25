@@ -3,7 +3,6 @@ var possibleCombinationSum = function(arr, n) {
     
     if (arr.indexOf(n) >= 0) { return true; }
     if (arr[0] > n) { return false; }
-    
     if (arr[arr.length - 1] > n) {
         arr.pop();
         return possibleCombinationSum(arr, n);
@@ -165,9 +164,8 @@ var DoneFrame = React.createClass({
 });
 
 var Game = React.createClass({
-
+    
     getInitialState: function() {
-
         return { numberOfStars: this.randomNumber(),
                 selectedNumbers: [],
                 usedNumbers: [],
@@ -213,22 +211,18 @@ var Game = React.createClass({
     },
     
     possibleSolution: function() {
-        
         var numberOfStars = this.state.numberOfStars,
             possibleNumbers = [],
             usedNumbers = this.state.usedNumbers;
-            
         for(var i = 1; i <=9 ;i++){
             if(usedNumbers.indexOf(i) < 0) {
                 possibleNumbers.push(i);
             }
         }
-        
         return possibleCombinationSum(possibleNumbers, numberOfStars);
     },
     
     selectNumber: function(clickedNumber) {
-    	
         if(this.state.selectedNumbers.indexOf(clickedNumber) < 0) {
             this.setState({ 
                 selectedNumbers: this.state.selectedNumbers.concat(clickedNumber),
@@ -242,29 +236,23 @@ var Game = React.createClass({
     },
     
     unselectNumber: function(clickedNumber) {
-
         var selectedNumbers = this.state.selectedNumbers,
             indexOfNumber = selectedNumbers.indexOf(clickedNumber);
-        
         selectedNumbers.splice(indexOfNumber, 1);
-        
         this.setState({ selectedNumbers: selectedNumbers, correct: null });
     },
     
     updateDoneStatus: function() {
-        
         if(this.state.usedNumbers.length === 9){
             this.setState({doneStatus: 'Well Played!'});
             return;
         } 
-        
         if(this.state.redraws === 0 && !this.possibleSolution()){
             this.setState({doneStatus: 'Game Over!'});
         }
     },
     
     render: function() {
-        
         var selectedNumbers = this.state.selectedNumbers,
             numberOfStars = this.state.numberOfStars,
             usedNumbers = this.state.usedNumbers,
@@ -272,7 +260,6 @@ var Game = React.createClass({
             correct = this.state.correct,
             doneStatus = this.state.doneStatus,
             bottomFrame;
-        
         if (doneStatus) {
             bottomFrame = <DoneFrame doneStatus={doneStatus} 
                                      resetGame={this.resetGame} />;
@@ -281,31 +268,24 @@ var Game = React.createClass({
                               usedNumbers={usedNumbers}
                               selectNumber={this.selectNumber} />
         }
-        
         return (
             <div id="game">
                 <h2>Play Nine</h2>
                 <hr />
-                
                 <div className="clearfix">
-                
                     <StarsFrame numberOfStars={this.state.numberOfStars} />
-                    
                     <ButtonFrame selectedNumbers={this.state.selectedNumbers}
                                  correct={correct}
                                  redraws={redraws}
                                  checkAnswer={this.checkAnswer}
                                  acceptAnswer={this.acceptAnswer}
                                  redraw={this.redraw}/>
-                                 
                     <AnswerFrame selectedNumbers={this.state.selectedNumbers} 
                                  unselectNumber={this.unselectNumber} />
-                                 
                 </div>
-                
+                <hr />
                 {bottomFrame}
                 <hr />
-                
             </div>
         );
     }
