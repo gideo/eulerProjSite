@@ -25,15 +25,11 @@ var possibleCombinationSum = function(arr, n) {
 };
 
 var StarsFrame = React.createClass({
-    
     render: function() {
-
         var stars = [];
-
         for(var i = 0; i < this.props.numberOfStars; i++) {
             stars.push(<span className="glyphicon glyphicon-star"></span>);
         }
-
         return (
             
             <div id="stars-frame">
@@ -47,13 +43,9 @@ var StarsFrame = React.createClass({
 });
 
 var ButtonFrame = React.createClass({
-    
     render: function() {
-        
         var disabled, button, correct = this.props.correct;
-        
         switch(correct) {
-            
             case true:
                 button = (
                     <button className="btn btn-success btn-lg" 
@@ -62,7 +54,6 @@ var ButtonFrame = React.createClass({
                     </button>
                 );
                 break;
-                
             case false:
                  button = (
                     <button className="btn btn-danger btn-lg" disabled={disabled}>
@@ -70,7 +61,6 @@ var ButtonFrame = React.createClass({
                     </button>
                 );
                 break;
-                
             default:
                 disabled = (this.props.selectedNumbers.length === 0);
                 button = (
@@ -97,9 +87,7 @@ var ButtonFrame = React.createClass({
 });
 
 var AnswerFrame = React.createClass({
-    
     render: function() {
-
         var props = this.props;
         var selectedNumbers = props.selectedNumbers.map(function(i) {
             return (
@@ -120,9 +108,7 @@ var AnswerFrame = React.createClass({
 });
 
 var NumbersFrame = React.createClass({
-    
     render: function() {
-        
         var numbers = [], className, 
             selectNumber = this.props.selectNumber,
             selectedNumbers = this.props.selectedNumbers,
@@ -149,7 +135,6 @@ var NumbersFrame = React.createClass({
 });
 
 var DoneFrame = React.createClass({
-    
     render: function() {
         return (
             <div className="well text-center">
@@ -164,7 +149,6 @@ var DoneFrame = React.createClass({
 });
 
 var Game = React.createClass({
-    
     getInitialState: function() {
         return { numberOfStars: this.randomNumber(),
                 selectedNumbers: [],
