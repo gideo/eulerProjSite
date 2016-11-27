@@ -254,7 +254,8 @@ var Game = React.createClass({
         }
         return (
             <div id="game">
-                <h2>Play Nine</h2>
+                <hr />
+                <h2 className="lobster">Play Nine</h2>
                 <hr />
                 <div className="clearfix">
                     <StarsFrame numberOfStars={this.state.numberOfStars} />
@@ -267,7 +268,6 @@ var Game = React.createClass({
                     <AnswerFrame selectedNumbers={this.state.selectedNumbers} 
                                  unselectNumber={this.unselectNumber} />
                 </div>
-                <hr />
                 {bottomFrame}
                 <hr />
             </div>
