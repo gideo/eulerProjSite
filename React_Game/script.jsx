@@ -1,5 +1,7 @@
+'use strict';
 
-var possibleCombinationSum = function(arr, n) {
+
+let possibleCombinationSum = function(arr, n) {
     
     if (arr.indexOf(n) >= 0) { return true; }
     if (arr[0] > n) { return false; }
@@ -252,6 +254,7 @@ var Game = React.createClass({
                               usedNumbers={usedNumbers}
                               selectNumber={this.selectNumber} />
         }
+        
         return (
             <div id="game">
                 <hr />
