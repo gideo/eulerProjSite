@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Ubuntu');
 
 h2 {
     text-align: center;
@@ -6,6 +6,10 @@ h2 {
 
 .lobster {
     font-family: 'Lobster', cursive;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #button-frame {
